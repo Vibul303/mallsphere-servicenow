@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3650000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>mallsphere__maintenance_request_notification</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Maintenance Request Record","reference":"x_1971559_mallsp_0_maintenance_request","reference_display":"Maintenance Request","type":"reference","base_type":"reference","usedInstances":{"d3f1183a-4647-4531-93e8-78c8dd39bff7":["record"]},"attributes":{}}]</label_cache>
+        <master_snapshot>baad6d1b47aac7105fdbe481e36d4338</master_snapshot>
+        <master_snapshot_digest/>
+        <name>MallSphere - Maintenance Request Notification</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>7aad6d1b47aac7105fdbe481e36d437b</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 05:07:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6bbfdd1f472ac7105fdbe481e36d437f</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>MallSphere - Maintenance Request Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name>sys_hub_flow_6bbfdd1f472ac7105fdbe481e36d437f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 06:08:41</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>0bad6d1b47aac7105fdbe481e36d43d4</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=6bbfdd1f472ac7105fdbe481e36d437f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6bbfdd1f472ac7105fdbe481e36d437f"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1971559_mallsp_0_maintenance_request">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 06:08:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7aad6d1b47aac7105fdbe481e36d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 06:08:41</sys_updated_on>
+        <table>x_1971559_mallsp_0_maintenance_request</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>6bbfdd1f472ac7105fdbe481e36d437f</identifier>
+        <identifier_type>flow</identifier_type>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 06:08:41</sys_created_on>
+        <sys_id>36ad6d1b47aac7105fdbe481e36d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 06:08:41</sys_updated_on>
+        <trigger display_value="">7aad6d1b47aac7105fdbe481e36d437b</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=6bbfdd1f472ac7105fdbe481e36d437f^sys_idNOT IN36ad6d1b47aac7105fdbe481e36d437d"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=6bbfdd1f472ac7105fdbe481e36d437f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=6bbfdd1f472ac7105fdbe481e36d437f^sys_idNOT IN23bfdd1f472ac7105fdbe481e36d4384"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>6bbfdd1f472ac7105fdbe481e36d437f</id>
+        <name>MallSphere - Maintenance Request Notification</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 05:07:50</sys_created_on>
+        <sys_id>23bfdd1f472ac7105fdbe481e36d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 05:07:50</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=23bfdd1f472ac7105fdbe481e36d4384"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=6bbfdd1f472ac7105fdbe481e36d437f^sys_idNOT IN1150a19f472ac7105fdbe481e36d439b,5150a19f472ac7105fdbe481e36d43bb"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="MallSphere - Maintenance Request Notification">6bbfdd1f472ac7105fdbe481e36d437f</model>
+        <model_id>6bbfdd1f472ac7105fdbe481e36d437f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6bbfdd1f472ac7105fdbe481e36d437f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 05:10:24</sys_created_on>
+        <sys_id>1150a19f472ac7105fdbe481e36d439b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 06:04:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1150a19f472ac7105fdbe481e36d439b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="MallSphere - Maintenance Request Notification">6bbfdd1f472ac7105fdbe481e36d437f</model>
+        <model_id>6bbfdd1f472ac7105fdbe481e36d437f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6bbfdd1f472ac7105fdbe481e36d437f</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 05:10:25</sys_created_on>
+        <sys_id>5150a19f472ac7105fdbe481e36d43bb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 06:04:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5150a19f472ac7105fdbe481e36d43bb"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=6bbfdd1f472ac7105fdbe481e36d437f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6bbfdd1f472ac7105fdbe481e36d437f"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=6bbfdd1f472ac7105fdbe481e36d437f^sys_idNOT IN41506d5b472ac7105fdbe481e36d43b9"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="MallSphere - Maintenance Request Notification">6bbfdd1f472ac7105fdbe481e36d437f</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 05:10:23</sys_created_on>
+        <sys_id>41506d5b472ac7105fdbe481e36d43b9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 06:08:40</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227bOBD9FUFPu4AL6GLHUd66SYoN0DZYx919CLICJZE2sTTpSpRSt8i/71A3y7o4dqS0zksQkRR55ujMmaHvf+gMeZjpF/oceQzrI51yiUOO2HyzxjAs1bDL0UrNrRAPkBThRr+QYYxHOgnFao5Xa4YkLCaIRTAowgCH+oU50hPEYny3iW4C2AneT7fJ99TzaXj+5prO1JxMHHeFGIvWrgH/KBwccR+7If4a40jCCwGN4KjN3/l7n7aLtFm5yF9SFoSY6xf3DyN9jUI4VCpAP2pTVKHyiY8cCxu+bdqWZRjW+dj0zmzPtAIbYcOADesM1aKQLURtKcDfAGGAg5KdBochRsEtZ5tyxRKiyvhaoW8R/Q67nxtqHcGA3cfZXPno5qxkw/5SUB/friUVPBvJcGaTgsUr/jnDr/jEBMVMFnzCSBzBfnitICsQOSJytxSPs+LAD5Sn0eWTTPiIlU9IypB6scSRIpxQBtS7GTeRiMMU/ez68nZ25f7zfn755/XMnV3fzWc3l/PrK/0pjcv9GqsdM4Q5FjcL56kUwQeKmfqAPF55gGakR35I1/K9L2lSaPFptNX3peABTVlpaNwvpqJdjRfR7xO5YXTK3K+cWEj93+u/mjrOBo/T7dkZQgFGHbr1SEW31chboMkWEqrR7VNwPnKIhMeG8YtEnFvVSzW8EgFmV9vtdJhcLEDVlK9jqdh6RFxGrhQuCgK3wqNaCpieE3UW29OzCg5jDi+45fdo6jilreTvIwU/vLiHLLxT5piS/g4siRRUpSfAcvIxP2EWc03Ad4Q/mh+HwJTUCpsjNyu0yAmGDRn2ZUUT5EtUffpEo4jyRSWILgwpQw0I5ekgNa0IOIMS9cTyMGSKNz9JUuO2lupH57lpEuJhYhlTleWmYXvENKbGBJHANgzfquR5E0wnSlkTzKvk+3HZHqVSZQcosU5xDt6o5spBMkp2NViQoCSSm8rlMNDMgaBZClrNHO2j3LGUZTZ8tavOfaEN3BmgIFF9W3CoSR7oj4SJRzDm/t7oIf+/RShiHtTdSR2hUa5tV2i/5XT+/no+SUSI9+PZXXFKDrn9KIWsEd8M4I02MT0Hj7EBlmiDG3oTx/F8ZBEyPZtiy6x54xZGK7Y34YnPiC9pU2+XP7YKJ2nT2xHO2ANgwyWPBtjfH3NhtrpjNvc2fPBxibkLUEOX0fRWXLPDBaMBLuaGzfbG0ck2v/tmPDl3/Ik5nfpTuPFAxpMx9pA5tibImZ7Z55Naxjeg7IMpW5j5KfegaBOlQDrc4Es2dVoX+9eUbYSlVOWodw3n0PSmW6DszErhVF9JSz1GhNpnwd/dbNdpdxjqYXo3fqVifggo9dm1n4rKE3LZaC4AyR8wvoNEtawdnJ3c7aymqGQ31t63Mzw+nzjEbvcj4rT50RZMN8yT70UOzJ+kMxPbmpJD9Z+0plFnF/ECCddkUm0v9vQ/Q5FiDk6K9Xqk2L17riIXO6+kLwH7hupd2oQMWPQUBOwKUvXyK6HBhAZnapRo+S+YONC8jSaXGBhm0GvD+ZoC09fE99SYJrJS378UV9bbN0ofDGt5a3Z6Va2mm2Hv1jiYosnE7ui0nfrdug3QM3hPvsYdnTNJWwruLXTH7Vvfs7XUVSS7q4gDi9igUbdXsn5Rt9ay56LuX6X2/TLQguJE68/D/1RywivyHwAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=6bbfdd1f472ac7105fdbe481e36d437f^sys_idNOT IN57cae99347aac7105fdbe481e36d43ed"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="MallSphere - Maintenance Request Notification">6bbfdd1f472ac7105fdbe481e36d437f</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 05:56:08</sys_created_on>
+        <sys_id>57cae99347aac7105fdbe481e36d43ed</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 06:17:00</sys_updated_on>
+        <ui_id>d3f1183a-4647-4531-93e8-78c8dd39bff7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YXVPbOBSG/4rG12lwEuIQrpbCMNsZoDsN070oHY8sy1iLLLmSTMgy/Pc9suXYSSBNSpjCLHfJ0dd7jt9Hsvzt3mOxd+jtxwd+ECX7eOQP+gPfP+iPx9FgnPgHo7HfI7HX8QTOKPRUlEhl/99iXtjA/f2xotjQOOx1SaEUFebhAdpjpnOOZ19dN4iQlPEY2r3Db987Xo4VzGio8g7vl5o2lcRxRDl0vcTqmhr0pZa2LNXMcvs/lqTIQF7I6uCZm+DEtaBPJ9ACg6wqv+PRO0NFTEFOgrmmHS/DIsZGqtk8ArnHnwVvAikTBqY80loSBnXRyKQU0QwzjqbMpAijSljXs/PdafYviBv07VQJhRoQq5UJwmJQ5LXCoSspNH9qmpMTbPDEqIKYQs0rLRmhuqpmTBNccHPcjlUdPueGSVENMTji9WjJi0xcVEX05hO0nmShQQzNbW1ssrA4JJ5MUjn9Uos9ZaKsoqsKlwTz+b9kQrEi6Smj3D5qUWQR9O142BjFosJYmWAKDr2adcJSql0LelJOy0eZ4Txn4jrMlbxl5YIgP+tec/jTTbicwnjNrkUXE5trF54e7p5C/KQMf8WK2cTPYRoY/NDx9Ewfc6x1kz7UP/xRWPVVMRbl2NFhaTg7mCiWmyNY6pa6ZB86DrHeeJ2f4/3Gt605G8zuwt541BsOx5Ay5zoPffgBVqMCW2so+qOg2qxyd950AkDqTtuhuIH0BkVro8dTcRiuxM7aY9FF1eAg7G0JYWVFx+AlgGeqvaFCDhknb87dgb/I3RO8vQ7O5vRsDNoiUC8DDZhEh5XzXW7l4r8A088Q8oMgioJoOBo0PhyTJB5FSYBHZND4bgobr8qwugnLjbfFUW8VEbelbMfEBlpqJmCz5kVM0d+1qHU6HSSRlLD7iWVCQOneaVndOSH9Zx1TlTWRkQgeJp/B4TSXZIPN0WVSbBDTSMPT6qJLiZjLqjWig2ayQFmhDXQz0LIA38J5t/96uXN2cNGTR73yJsDcPYDD9QcBboyN09DIFnbj/ijoDyJK+oPgj+yGUEihy8QqjE933I7PDaTOzyy5qtthqOEpieslCid10BE4WE9gdSStANg6gvzXC8Nb8boVzlnGSkNUlO7e/vFaT1F/wUaEtOy/g/vQBovXhj4+XlWyjaH3f+1IeXf0m3N0b+0lmwYLPop2bekNVq8t/XHJ09HWph6+m/p/YurheluRBSPpIvqHEtMy9gWdokduzch95kIfoJXzSZ5CTVch2HL0li81P8+sBmYyz+uxXLcBJ3h/vfnt3OweErzWSkl/cbeV8axFyFXh+wOSI6v5g2FilhGqpDQRFOambIyvvKuqGz1CApBofatC7lsVSrFGEaUCEccGEy04utUqe3k1zZXYatW/4PasKSIpJTflLfYxJt1HoUQqFFMDt1z9vEUvUyxu7B24Uw2LVBVvkkKTmTY0W1xldRNxq75MAV+kQE8VAO1tWoLtdsIN7Dt/dajMu+JmtwemJuNLO+Cfl+dnzf43euaLQzAcDoL3HfDZbw75NO7HSua5y23Hbw/f/wN54pmnDBsAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=57cae99347aac7105fdbe481e36d43ed"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=6bbfdd1f472ac7105fdbe481e36d437f"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=6bbfdd1f472ac7105fdbe481e36d437f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6bbfdd1f472ac7105fdbe481e36d437f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=6bbfdd1f472ac7105fdbe481e36d437f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6bbfdd1f472ac7105fdbe481e36d437f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 05:10:25</sys_created_on>
+        <sys_id>1d50a19f472ac7105fdbe481e36d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 05:10:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6bbfdd1f472ac7105fdbe481e36d437f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 05:10:25</sys_created_on>
+        <sys_id>dd50a19f472ac7105fdbe481e36d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 05:10:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6bbfdd1f472ac7105fdbe481e36d437f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6bbfdd1f472ac7105fdbe481e36d437f"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>mallsphere__maintenance_request_notification</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Maintenance Request Record","reference":"x_1971559_mallsp_0_maintenance_request","reference_display":"Maintenance Request","type":"reference","base_type":"reference","usedInstances":{"d3f1183a-4647-4531-93e8-78c8dd39bff7":["record"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>MallSphere - Maintenance Request Notification</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="MallSphere - Maintenance Request Notification">6bbfdd1f472ac7105fdbe481e36d437f</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 06:08:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>baad6d1b47aac7105fdbe481e36d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 06:08:40</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=baad6d1b47aac7105fdbe481e36d4338"/>
+    <sys_variable_value action="delete_multiple" query="document_key=baad6d1b47aac7105fdbe481e36d4338"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=baad6d1b47aac7105fdbe481e36d4338"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=baad6d1b47aac7105fdbe481e36d4338^sys_idNOT INf6ad6d1b47aac7105fdbe481e36d4339"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>baad6d1b47aac7105fdbe481e36d4338</id>
+        <name>MallSphere - Maintenance Request Notification</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 06:08:40</sys_created_on>
+        <sys_id>f6ad6d1b47aac7105fdbe481e36d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 06:08:40</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f6ad6d1b47aac7105fdbe481e36d4339"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=baad6d1b47aac7105fdbe481e36d4338^sys_idNOT IN3aad6d1b47aac7105fdbe481e36d434b,7ead6d1b47aac7105fdbe481e36d433a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="MallSphere - Maintenance Request Notification">baad6d1b47aac7105fdbe481e36d4338</model>
+        <model_id>baad6d1b47aac7105fdbe481e36d4338</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_baad6d1b47aac7105fdbe481e36d4338</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 06:08:40</sys_created_on>
+        <sys_id>3aad6d1b47aac7105fdbe481e36d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 06:08:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3aad6d1b47aac7105fdbe481e36d434b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="MallSphere - Maintenance Request Notification">baad6d1b47aac7105fdbe481e36d4338</model>
+        <model_id>baad6d1b47aac7105fdbe481e36d4338</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_baad6d1b47aac7105fdbe481e36d4338</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 06:08:40</sys_created_on>
+        <sys_id>7ead6d1b47aac7105fdbe481e36d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 06:08:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7ead6d1b47aac7105fdbe481e36d433a"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=baad6d1b47aac7105fdbe481e36d4338"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=baad6d1b47aac7105fdbe481e36d4338"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=baad6d1b47aac7105fdbe481e36d4338^sys_idNOT IN36ad6d1b47aac7105fdbe481e36d4361"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="MallSphere - Maintenance Request Notification">baad6d1b47aac7105fdbe481e36d4338</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 06:08:40</sys_created_on>
+        <sys_id>36ad6d1b47aac7105fdbe481e36d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 06:08:40</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227bOBD9FUFPu4AL6GLHUd66SYoN0DZYx919CLICJZE2sTTpSpRSt8i/71A3y7o4dqS0zksQkRR55ujMmaHvf+gMeZjpF/oceQzrI51yiUOO2HyzxjAs1bDL0UrNrRAPkBThRr+QYYxHOgnFao5Xa4YkLCaIRTAowgCH+oU50hPEYny3iW4C2AneT7fJ99TzaXj+5prO1JxMHHeFGIvWrgH/KBwccR+7If4a40jCCwGN4KjN3/l7n7aLtFm5yF9SFoSY6xf3DyN9jUI4VCpAP2pTVKHyiY8cCxu+bdqWZRjW+dj0zmzPtAIbYcOADesM1aKQLURtKcDfAGGAg5KdBochRsEtZ5tyxRKiyvhaoW8R/Q67nxtqHcGA3cfZXPno5qxkw/5SUB/friUVPBvJcGaTgsUr/jnDr/jEBMVMFnzCSBzBfnitICsQOSJytxSPs+LAD5Sn0eWTTPiIlU9IypB6scSRIpxQBtS7GTeRiMMU/ez68nZ25f7zfn755/XMnV3fzWc3l/PrK/0pjcv9GqsdM4Q5FjcL56kUwQeKmfqAPF55gGakR35I1/K9L2lSaPFptNX3peABTVlpaNwvpqJdjRfR7xO5YXTK3K+cWEj93+u/mjrOBo/T7dkZQgFGHbr1SEW31chboMkWEqrR7VNwPnKIhMeG8YtEnFvVSzW8EgFmV9vtdJhcLEDVlK9jqdh6RFxGrhQuCgK3wqNaCpieE3UW29OzCg5jDi+45fdo6jilreTvIwU/vLiHLLxT5piS/g4siRRUpSfAcvIxP2EWc03Ad4Q/mh+HwJTUCpsjNyu0yAmGDRn2ZUUT5EtUffpEo4jyRSWILgwpQw0I5ekgNa0IOIMS9cTyMGSKNz9JUuO2lupH57lpEuJhYhlTleWmYXvENKbGBJHANgzfquR5E0wnSlkTzKvk+3HZHqVSZQcosU5xDt6o5spBMkp2NViQoCSSm8rlMNDMgaBZClrNHO2j3LGUZTZ8tavOfaEN3BmgIFF9W3CoSR7oj4SJRzDm/t7oIf+/RShiHtTdSR2hUa5tV2i/5XT+/no+SUSI9+PZXXFKDrn9KIWsEd8M4I02MT0Hj7EBlmiDG3oTx/F8ZBEyPZtiy6x54xZGK7Y34YnPiC9pU2+XP7YKJ2nT2xHO2ANgwyWPBtjfH3NhtrpjNvc2fPBxibkLUEOX0fRWXLPDBaMBLuaGzfbG0ck2v/tmPDl3/Ik5nfpTuPFAxpMx9pA5tibImZ7Z55Naxjeg7IMpW5j5KfegaBOlQDrc4Es2dVoX+9eUbYSlVOWodw3n0PSmW6DszErhVF9JSz1GhNpnwd/dbNdpdxjqYXo3fqVifggo9dm1n4rKE3LZaC4AyR8wvoNEtawdnJ3c7aymqGQ31t63Mzw+nzjEbvcj4rT50RZMN8yT70UOzJ+kMxPbmpJD9Z+0plFnF/ECCddkUm0v9vQ/Q5FiDk6K9Xqk2L17riIXO6+kLwH7hupd2oQMWPQUBOwKUvXyK6HBhAZnapRo+S+YONC8jSaXGBhm0GvD+ZoC09fE99SYJrJS378UV9bbN0ofDGt5a3Z6Va2mm2Hv1jiYosnE7ui0nfrdug3QM3hPvsYdnTNJWwruLXTH7Vvfs7XUVSS7q4gDi9igUbdXsn5Rt9ay56LuX6X2/TLQguJE68/D/1RywivyHwAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=baad6d1b47aac7105fdbe481e36d4338^sys_idNOT IN72ad6d1b47aac7105fdbe481e36d435f"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="MallSphere - Maintenance Request Notification">baad6d1b47aac7105fdbe481e36d4338</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 06:08:40</sys_created_on>
+        <sys_id>72ad6d1b47aac7105fdbe481e36d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 06:08:40</sys_updated_on>
+        <ui_id>d3f1183a-4647-4531-93e8-78c8dd39bff7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YXVPbOBSG/4rG12lwEuIQrpbCMNsZoDsN070oHY8sy1iLLLmSTMgy/Pc9suXYSSBNSpjCLHfJ0dd7jt9Hsvzt3mOxd+jtxwd+ECX7eOQP+gPfP+iPx9FgnPgHo7HfI7HX8QTOKPRUlEhl/99iXtjA/f2xotjQOOx1SaEUFebhAdpjpnOOZ19dN4iQlPEY2r3Db987Xo4VzGio8g7vl5o2lcRxRDl0vcTqmhr0pZa2LNXMcvs/lqTIQF7I6uCZm+DEtaBPJ9ACg6wqv+PRO0NFTEFOgrmmHS/DIsZGqtk8ArnHnwVvAikTBqY80loSBnXRyKQU0QwzjqbMpAijSljXs/PdafYviBv07VQJhRoQq5UJwmJQ5LXCoSspNH9qmpMTbPDEqIKYQs0rLRmhuqpmTBNccHPcjlUdPueGSVENMTji9WjJi0xcVEX05hO0nmShQQzNbW1ssrA4JJ5MUjn9Uos9ZaKsoqsKlwTz+b9kQrEi6Smj3D5qUWQR9O142BjFosJYmWAKDr2adcJSql0LelJOy0eZ4Txn4jrMlbxl5YIgP+tec/jTTbicwnjNrkUXE5trF54e7p5C/KQMf8WK2cTPYRoY/NDx9Ewfc6x1kz7UP/xRWPVVMRbl2NFhaTg7mCiWmyNY6pa6ZB86DrHeeJ2f4/3Gt605G8zuwt541BsOx5Ay5zoPffgBVqMCW2so+qOg2qxyd950AkDqTtuhuIH0BkVro8dTcRiuxM7aY9FF1eAg7G0JYWVFx+AlgGeqvaFCDhknb87dgb/I3RO8vQ7O5vRsDNoiUC8DDZhEh5XzXW7l4r8A088Q8oMgioJoOBo0PhyTJB5FSYBHZND4bgobr8qwugnLjbfFUW8VEbelbMfEBlpqJmCz5kVM0d+1qHU6HSSRlLD7iWVCQOneaVndOSH9Zx1TlTWRkQgeJp/B4TSXZIPN0WVSbBDTSMPT6qJLiZjLqjWig2ayQFmhDXQz0LIA38J5t/96uXN2cNGTR73yJsDcPYDD9QcBboyN09DIFnbj/ijoDyJK+oPgj+yGUEihy8QqjE933I7PDaTOzyy5qtthqOEpieslCid10BE4WE9gdSStANg6gvzXC8Nb8boVzlnGSkNUlO7e/vFaT1F/wUaEtOy/g/vQBovXhj4+XlWyjaH3f+1IeXf0m3N0b+0lmwYLPop2bekNVq8t/XHJ09HWph6+m/p/YurheluRBSPpIvqHEtMy9gWdokduzch95kIfoJXzSZ5CTVch2HL0li81P8+sBmYyz+uxXLcBJ3h/vfnt3OweErzWSkl/cbeV8axFyFXh+wOSI6v5g2FilhGqpDQRFOambIyvvKuqGz1CApBofatC7lsVSrFGEaUCEccGEy04utUqe3k1zZXYatW/4PasKSIpJTflLfYxJt1HoUQqFFMDt1z9vEUvUyxu7B24Uw2LVBVvkkKTmTY0W1xldRNxq75MAV+kQE8VAO1tWoLtdsIN7Dt/dajMu+JmtwemJuNLO+Cfl+dnzf43euaLQzAcDoL3HfDZbw75NO7HSua5y23Hbw/f/wN54pmnDBsAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=72ad6d1b47aac7105fdbe481e36d435f"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=baad6d1b47aac7105fdbe481e36d4338"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=baad6d1b47aac7105fdbe481e36d4338"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=baad6d1b47aac7105fdbe481e36d4338"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=baad6d1b47aac7105fdbe481e36d4338"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_baad6d1b47aac7105fdbe481e36d4338</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 06:08:40</sys_created_on>
+        <sys_id>3aad6d1b47aac7105fdbe481e36d4352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 06:08:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_baad6d1b47aac7105fdbe481e36d4338</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 06:08:40</sys_created_on>
+        <sys_id>b2ad6d1b47aac7105fdbe481e36d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 06:08:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_baad6d1b47aac7105fdbe481e36d4338"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_baad6d1b47aac7105fdbe481e36d4338"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>6bbfdd1f472ac7105fdbe481e36d437f</sys_id>
+        <latest_snapshot>baad6d1b47aac7105fdbe481e36d4338</latest_snapshot>
+        <compiler_build>glide-australia-02-11-2026__patch3-05-25-2026_06-12-2026_1106.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=6bbfdd1f472ac7105fdbe481e36d437f^sys_idNOT IN3aad6d1b47aac7105fdbe481e36d437e"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_trigger_plan","id":"3aad6d1b47aac7105fdbe481e36d437e","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
+        <plan_id>6bbfdd1f472ac7105fdbe481e36d437f</plan_id>
+        <snapshot>b49f691f47aac7105fdbe481e36d43a4</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 06:08:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3aad6d1b47aac7105fdbe481e36d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 06:08:41</sys_updated_on>
+        <trigger display_value="">7aad6d1b47aac7105fdbe481e36d437b</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=6bbfdd1f472ac7105fdbe481e36d437f"/>
+</record_update>

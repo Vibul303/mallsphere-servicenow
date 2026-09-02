@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="29b9791e47a60f105fdbe481e36d4328" label="Asset Inspection" max_length="40" name="x_1971559_mallsp_0_asset_inspection" type="collection">
+        <element label="Next Inspection Date" max_length="40" name="next_inspection_date" type="glide_date_time"/>
+        <element choice="1" label="Risk Level" mandatory="true" max_length="255" name="risk_leve0" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="0" value="Low"/>
+                <element inactive_on_update="false" label="Critical" sequence="3" value="Critical"/>
+            </choice>
+        </element>
+        <element choice="1" label="Risk Level" mandatory="true" max_length="255" name="risk_level" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Inspection Result" mandatory="true" max_length="255" name="inspection_result" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending Review" sequence="3" value="Pending Review"/>
+                <element inactive_on_update="false" label="Passed With Issues" sequence="1" value="Passed With Issues"/>
+                <element inactive_on_update="false" label="Passed" sequence="0" value="Passed"/>
+                <element inactive_on_update="false" label="Failed" sequence="2" value="Failed"/>
+            </choice>
+        </element>
+        <element label="Maintenance Request" max_length="32" name="maintenance_request" reference="x_1971559_mallsp_0_maintenance_request" type="reference"/>
+        <element choice="1" label="Condition" mandatory="true" max_length="255" name="condition" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Poor" sequence="3" value="Poor"/>
+                <element inactive_on_update="false" label="Good" sequence="1" value="Good"/>
+                <element inactive_on_update="false" label="Excellent" sequence="0" value="Excellent"/>
+                <element inactive_on_update="false" label="Fair" sequence="2" value="Fair"/>
+                <element inactive_on_update="false" label="Critical" sequence="4" value="Critical"/>
+            </choice>
+        </element>
+        <element label="Inspector" max_length="32" name="inspector" reference="sys_user" type="reference"/>
+        <element label="Inspection Date" mandatory="true" max_length="40" name="inspection_date" type="glide_date_time"/>
+        <element choice="1" label="Inspection Status" mandatory="true" max_length="255" name="inspection_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="Completed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="Cancelled"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="In Progress"/>
+                <element inactive_on_update="false" label="Scheduled" sequence="0" value="Scheduled"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Safety Status" mandatory="true" max_length="255" name="safety_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Not Applicable" sequence="3" value="Not Applicable"/>
+                <element inactive_on_update="false" label="Safe With Observation" sequence="1" value="Safe With Observation"/>
+                <element inactive_on_update="false" label="Unsafe" sequence="2" value="Unsafe"/>
+                <element inactive_on_update="false" label="Safe" sequence="0" value="Safe"/>
+            </choice>
+        </element>
+        <element default="False" label="Maintenance Required" mandatory="true" max_length="40" name="maintenance_required" type="boolean"/>
+        <element label="Defect Description" max_length="8000" name="defect_description" type="html"/>
+        <element choice="1" label="Inspection Type" mandatory="true" max_length="255" name="inspection_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Preventive" sequence="1" value="Preventive"/>
+                <element inactive_on_update="false" label="Routine" sequence="0" value="Routine"/>
+                <element inactive_on_update="false" label="Post-Maintenance" sequence="5" value="Post-Maintenance"/>
+                <element inactive_on_update="false" label="Compliance" sequence="3" value="Compliance"/>
+                <element inactive_on_update="false" label="Emergency" sequence="4" value="Emergency"/>
+                <element inactive_on_update="false" label="Safety" sequence="2" value="Safety"/>
+            </choice>
+        </element>
+        <element label="Inspector Notes" max_length="8000" name="inspector_notes" type="html"/>
+        <element label="Store" max_length="32" name="store" reference="x_1971559_mallsp_0_store" type="reference"/>
+        <element label="Inspection Number" mandatory="true" max_length="30" name="inspection_number" type="string"/>
+        <element default="False" label="Defect Found" mandatory="true" max_length="40" name="defect_found" type="boolean"/>
+        <element label="Asset Name" mandatory="true" max_length="150" name="asset_name" type="string"/>
+        <element choice="1" label="Asset Category" mandatory="true" max_length="255" name="asset_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="HVAC" sequence="2" value="HVAC"/>
+                <element inactive_on_update="false" label="Parking Equipment" sequence="8" value="Parking Equipment"/>
+                <element inactive_on_update="false" label="Electrical" sequence="6" value="Electrical"/>
+                <element inactive_on_update="false" label="Fire Safety" sequence="4" value="Fire Safety"/>
+                <element inactive_on_update="false" label="CCTV" sequence="5" value="CCTV"/>
+                <element inactive_on_update="false" label="Generator" sequence="3" value="Generator"/>
+                <element inactive_on_update="false" label="Escalator" sequence="1" value="Escalator"/>
+                <element inactive_on_update="false" label="Other" sequence="9" value="Other"/>
+                <element inactive_on_update="false" label="Elevator" sequence="0" value="Elevator"/>
+                <element inactive_on_update="false" label="Plumbing" sequence="7" value="Plumbing"/>
+            </choice>
+        </element>
+        <element label="Inspection Location" mandatory="true" max_length="200" name="inspection_location" type="string"/>
+        <index name="index">
+            <element name="inspector"/>
+        </index>
+        <index name="index2">
+            <element name="maintenance_request"/>
+        </index>
+        <index name="index3">
+            <element name="store"/>
+        </index>
+    </element>
+</database>

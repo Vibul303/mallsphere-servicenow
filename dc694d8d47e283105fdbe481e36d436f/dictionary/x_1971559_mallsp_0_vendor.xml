@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="cc9cfdca472a8b105fdbe481e36d4310" label="Vendor" max_length="40" name="x_1971559_mallsp_0_vendor" type="collection">
+        <element label="Notes" max_length="8000" name="notes" type="html"/>
+        <element choice="1" label="Vendor Category" mandatory="true" max_length="255" name="vendor_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="HVAC" sequence="2" value="HVAC"/>
+                <element inactive_on_update="false" label="IT Support" sequence="6" value="IT Support"/>
+                <element inactive_on_update="false" label="Security" sequence="4" value="Security"/>
+                <element inactive_on_update="false" label="Landscaping" sequence="9" value="Landscaping"/>
+                <element inactive_on_update="false" label="Fire Safety" sequence="5" value="Fire Safety"/>
+                <element inactive_on_update="false" label="Housekeeping" sequence="3" value="Housekeeping"/>
+                <element inactive_on_update="false" label="Plumbing" sequence="1" value="Plumbing"/>
+                <element inactive_on_update="false" label="Electrical" sequence="0" value="Electrical"/>
+                <element inactive_on_update="false" label="Parking" sequence="7" value="Parking"/>
+                <element inactive_on_update="false" label="Other" sequence="10" value="Other"/>
+                <element inactive_on_update="false" label="Civil Works" sequence="8" value="Civil Works"/>
+            </choice>
+        </element>
+        <element choice="1" label="Service Level" mandatory="true" max_length="255" name="service_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Platinum" sequence="3" value="Platinum"/>
+                <element inactive_on_update="false" label="Premium" sequence="1" value="Premium"/>
+                <element inactive_on_update="false" label="Standard" sequence="0" value="Standard"/>
+                <element inactive_on_update="false" label="Gold" sequence="2" value="Gold"/>
+            </choice>
+        </element>
+        <element label="Contact Person" mandatory="true" max_length="100" name="contact_person" type="string"/>
+        <element label="Contract End Date" mandatory="true" max_length="40" name="contract_end_date" type="glide_date_time"/>
+        <element label="Assigned Manager" max_length="32" name="assigned_manager" reference="sys_user" type="reference"/>
+        <element label="Contract Start Date" mandatory="true" max_length="40" name="contract_start_date" type="glide_date_time"/>
+        <element choice="1" label="Vendor Status" mandatory="true" max_length="255" name="vendor_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Suspended" sequence="2" value="Suspended"/>
+                <element inactive_on_update="false" label="Active" sequence="0" value="Active"/>
+                <element inactive_on_update="false" label="Expired" sequence="3" value="Expired"/>
+                <element inactive_on_update="false" label="Inactive" sequence="1" value="Inactive"/>
+            </choice>
+        </element>
+        <element label="Vendor Name" mandatory="true" max_length="150" name="vendor_name" type="string"/>
+        <element label="Email" max_length="100" name="email" type="string"/>
+        <element label="Rating" max_length="20" name="rating" type="decimal"/>
+        <element label="Vendor Number" mandatory="true" max_length="30" name="vendor_number" type="string"/>
+        <element label="Phone Number" mandatory="true" max_length="20" name="phone_number" type="string"/>
+        <element label="Address" max_length="8000" name="address" type="html"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="assigned_manager"/>
+        </index>
+    </element>
+</database>

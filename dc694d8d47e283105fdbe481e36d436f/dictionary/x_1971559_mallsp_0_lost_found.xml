@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="1181bdf547e60b105fdbe481e36d43f1" label="Lost &amp; Found" max_length="40" name="x_1971559_mallsp_0_lost_found" type="collection">
+        <element label="Item Name" mandatory="true" max_length="100" name="item_name" type="string"/>
+        <element label="Notes" max_length="8000" name="notes" type="html"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Item Number" mandatory="true" max_length="30" name="item_number" type="string"/>
+        <element label="Storage Location" max_length="100" name="storage_location" type="string"/>
+        <element label="Found Location" mandatory="true" max_length="150" name="found_location" type="string"/>
+        <element choice="1" label="Verification Status" mandatory="true" max_length="255" name="verification_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Verified" sequence="1" value="Verified"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="Pending"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="Rejected"/>
+            </choice>
+        </element>
+        <element label="Reported By" mandatory="true" max_length="32" name="reported_by" reference="sys_user" type="reference"/>
+        <element choice="1" label="Status" mandatory="true" max_length="255" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Verified" sequence="1" value="Verified"/>
+                <element inactive_on_update="false" label="Reported" sequence="0" value="Reported"/>
+                <element inactive_on_update="false" label="Returned" sequence="4" value="Returned"/>
+                <element inactive_on_update="false" label="Stored" sequence="2" value="Stored"/>
+                <element inactive_on_update="false" label="Disposed" sequence="5" value="Disposed"/>
+                <element inactive_on_update="false" label="Claimed" sequence="3" value="Claimed"/>
+            </choice>
+        </element>
+        <element label="Item Description" max_length="8000" name="item_description" type="html"/>
+        <element default="True" label="Verification Required" mandatory="true" max_length="40" name="verification_required" type="boolean"/>
+        <element label="Claimed By" max_length="100" name="claimed_by" type="string"/>
+        <element label="Claim Date" max_length="40" name="claim_date" type="glide_date_time"/>
+        <element label="Date Found" mandatory="true" max_length="40" name="date_found" type="glide_date_time"/>
+        <element choice="1" label="Item Category" mandatory="true" max_length="255" name="item_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Other" sequence="10" value="Other"/>
+                <element inactive_on_update="false" label="Clothing" sequence="8" value="Clothing"/>
+                <element inactive_on_update="false" label="Documents" sequence="6" value="Documents"/>
+                <element inactive_on_update="false" label="Jewellery" sequence="4" value="Jewellery"/>
+                <element inactive_on_update="false" label="Laptop" sequence="2" value="Laptop"/>
+                <element inactive_on_update="false" label="Keys" sequence="7" value="Keys"/>
+                <element inactive_on_update="false" label="Watch" sequence="5" value="Watch"/>
+                <element inactive_on_update="false" label="Electronics" sequence="9" value="Electronics"/>
+                <element inactive_on_update="false" label="Bag" sequence="3" value="Bag"/>
+                <element inactive_on_update="false" label="Mobile Phone" sequence="1" value="Mobile Phone"/>
+                <element inactive_on_update="false" label="Wallet" sequence="0" value="Wallet"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="reported_by"/>
+        </index>
+    </element>
+</database>

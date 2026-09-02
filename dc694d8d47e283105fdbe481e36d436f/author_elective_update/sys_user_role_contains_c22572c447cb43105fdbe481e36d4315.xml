@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="x_1971559_mallsp_0.store_user" name="x_1971559_mallsp_0.store_user">13e0028d47aa83105fdbe481e36d43bd</contains>
+        <role display_value="x_1971559_mallsp_0.viewer" name="x_1971559_mallsp_0.viewer">9c6f5a1647a203105fdbe481e36d4309</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-27 05:32:09</sys_created_on>
+        <sys_id>c22572c447cb43105fdbe481e36d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1971559_mallsp_0.store_user.x_1971559_mallsp_0.viewer</sys_name>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name>sys_user_role_contains_c22572c447cb43105fdbe481e36d4315</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-27 05:32:09</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</application>
+        <file_path/>
+        <instance_id>5eb0d4a2eba50fd4e483f459bad0cd4d</instance_id>
+        <instance_name>dev410727</instance_name>
+        <name>sys_user_role_contains_c22572c447cb43105fdbe481e36d4315</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="x_1971559_mallsp_0.store_user" name="x_1971559_mallsp_0.store_user">13e0028d47aa83105fdbe481e36d43bd</contains><role display_value="x_1971559_mallsp_0.viewer" name="x_1971559_mallsp_0.viewer">9c6f5a1647a203105fdbe481e36d4309</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-27 05:32:09</sys_created_on><sys_id>c22572c447cb43105fdbe481e36d4315</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1971559_mallsp_0.store_user.x_1971559_mallsp_0.viewer</sys_name><sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package><sys_policy/><sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope><sys_update_name>sys_user_role_contains_c22572c447cb43105fdbe481e36d4315</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-27 05:32:09</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>-200247743</payload_hash>
+        <record_name>x_1971559_mallsp_0.store_user.x_1971559_mallsp_0.viewer</record_name>
+        <reverted_from/>
+        <source>10694d8d47e283105fdbe481e36d4375</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-27 05:32:09</sys_created_on>
+        <sys_id>4e2572c447cb43105fdbe481e36d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a041b449820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-27 05:32:09</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>0e2572c4e3cb4310f48d43a23e5e551d</update_guid>
+        <update_guid_history>0e2572c4e3cb4310f48d43a23e5e551d:-200247743</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-27 05:53:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>9678ab130c234200a98026666419ab29</sys_id>
+        <sys_metadata>c22572c447cb43105fdbe481e36d4315</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1971559_mallsp_0.store_user.x_1971559_mallsp_0.viewer</sys_name>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_scope_delete display_value="">0ffb337f2f254b1eb0c741d30e5b9e91</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_c22572c447cb43105fdbe481e36d4315</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_c22572c447cb43105fdbe481e36d4315">4e2572c447cb43105fdbe481e36d431e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-27 05:53:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

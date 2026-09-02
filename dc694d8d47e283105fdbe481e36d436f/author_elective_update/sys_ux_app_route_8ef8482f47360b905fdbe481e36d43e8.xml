@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="MallSphere Portal">a3f3559b47be87905fdbe481e36d4343</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>Store Management</name>
+        <optional_parameters>listId</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">1e3d29d9ff9c321033b2ffffffffffa2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>store-management</route_type>
+        <screen_type display_value="Store Management">06f8482f47360b905fdbe481e36d43e4</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-25 03:42:53</sys_created_on>
+        <sys_id>8ef8482f47360b905fdbe481e36d43e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Store Management</sys_name>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name>sys_ux_app_route_8ef8482f47360b905fdbe481e36d43e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-25 03:42:53</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=8ef8482f47360b905fdbe481e36d43e8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</application>
+        <file_path/>
+        <instance_id>5eb0d4a2eba50fd4e483f459bad0cd4d</instance_id>
+        <instance_name>dev410727</instance_name>
+        <name>sys_ux_app_route_8ef8482f47360b905fdbe481e36d43e8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="MallSphere Portal">a3f3559b47be87905fdbe481e36d4343</app_config><description/><extension_point/><fields/><icon/><interoperable>false</interoperable><name>Store Management</name><optional_parameters>listId</optional_parameters><order>0</order><parent_macroponent display_value="Portal App Shell">1e3d29d9ff9c321033b2ffffffffffa2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>store-management</route_type><screen_type display_value="Store Management">06f8482f47360b905fdbe481e36d43e4</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-25 03:42:53</sys_created_on><sys_id>8ef8482f47360b905fdbe481e36d43e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Store Management</sys_name><sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package><sys_policy/><sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope><sys_update_name>sys_ux_app_route_8ef8482f47360b905fdbe481e36d43e8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-25 03:42:53</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=8ef8482f47360b905fdbe481e36d43e8"/></record_update>]]></payload>
+        <payload_hash>-37760849</payload_hash>
+        <record_name>Store Management</record_name>
+        <reverted_from/>
+        <source>10694d8d47e283105fdbe481e36d4375</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-25 03:42:53</sys_created_on>
+        <sys_id>82f8482f47360b905fdbe481e36d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0370389220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-25 03:42:53</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>02f8482fd4360b9052180cb11e0073ec</update_guid>
+        <update_guid_history>02f8482fd4360b9052180cb11e0073ec:-37760849</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-25 04:15:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>0473304dcdad40f880887a1865f0b264</sys_id>
+        <sys_metadata>8ef8482f47360b905fdbe481e36d43e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Store Management</sys_name>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_scope_delete display_value="">0ffb337f2f254b1eb0c741d30e5b9e91</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_8ef8482f47360b905fdbe481e36d43e8</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_8ef8482f47360b905fdbe481e36d43e8">82f8482f47360b905fdbe481e36d43ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-25 04:15:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

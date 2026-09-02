@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="8b1b7d75476a0b105fdbe481e36d4303" sys_domain="global" table="x_1971559_mallsp_0_lost_found" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 15:16:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f1b7d75476a0b105fdbe481e36d4308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1971559_mallsp_0_lost_found" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">8b1b7d75476a0b105fdbe481e36d4303</sys_ui_form>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">871b3d75476a0b105fdbe481e36d4396</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 15:16:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1971559_mallsp_0_lost_found</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 15:16:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b1b7d75476a0b105fdbe481e36d4303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1971559_mallsp_0_lost_found</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8b1b7d75476a0b105fdbe481e36d4303</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 15:16:30</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

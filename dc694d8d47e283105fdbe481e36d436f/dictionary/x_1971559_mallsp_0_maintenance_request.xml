@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="064f8b4d4726c3105fdbe481e36d434a" label="Maintenance Request" max_length="40" name="x_1971559_mallsp_0_maintenance_request" type="collection">
+        <element label="Resolution Notes" max_length="8000" name="resolution_notes" type="html"/>
+        <element label="Description" mandatory="true" max_length="8000" name="description" type="html"/>
+        <element default="False" label="SLA Breached" mandatory="true" max_length="40" name="sla_breached" type="boolean"/>
+        <element choice="1" label="Priority" mandatory="true" max_length="255" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="3" value="Critical"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="0" value="Low"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+            </choice>
+        </element>
+        <element label="Tenant" mandatory="true" max_length="32" name="tenant" reference="x_1971559_mallsp_0_tenant" type="reference"/>
+        <element choice="1" label="Category" mandatory="true" max_length="255" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Housekeeping" sequence="3" value="Housekeeping"/>
+                <element inactive_on_update="false" label="Plumbing" sequence="1" value="Plumbing"/>
+                <element inactive_on_update="false" label="Electrical" sequence="0" value="Electrical"/>
+                <element inactive_on_update="false" label="Fire Safety" sequence="5" value="Fire Safety"/>
+                <element inactive_on_update="false" label="Other" sequence="10" value="Other"/>
+                <element inactive_on_update="false" label="Elevator" sequence="8" value="Elevator"/>
+                <element inactive_on_update="false" label="Security" sequence="6" value="Security"/>
+                <element inactive_on_update="false" label="Civil" sequence="4" value="Civil"/>
+                <element inactive_on_update="false" label="HVAC" sequence="2" value="HVAC"/>
+                <element inactive_on_update="false" label="Parking" sequence="9" value="Parking"/>
+                <element inactive_on_update="false" label="Escalator" sequence="7" value="Escalator"/>
+            </choice>
+        </element>
+        <element label="Technician Feedback" max_length="8000" name="technician_feedback" type="html"/>
+        <element label="Due Date" max_length="40" name="due_date" type="glide_date_time"/>
+        <element choice="1" label="Status" mandatory="true" max_length="255" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" sequence="6" value="Cancelled"/>
+                <element inactive_on_update="false" label="Resolved" sequence="4" value="Resolved"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="In Progress"/>
+                <element inactive_on_update="false" label="Assigned" sequence="1" value="Assigned"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="New"/>
+                <element inactive_on_update="false" label="Closed" sequence="5" value="Closed"/>
+                <element inactive_on_update="false" label="On Hold" sequence="3" value="On Hold"/>
+            </choice>
+        </element>
+        <element label="Assigned Group" max_length="32" name="assigned_group" reference="sys_user_group" type="reference"/>
+        <element label="Requested By" mandatory="true" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Store" mandatory="true" max_length="32" name="store" reference="x_1971559_mallsp_0_store" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Request Number" mandatory="true" max_length="30" name="request_number" type="string"/>
+        <element label="Request Date" mandatory="true" max_length="40" name="request_date" type="glide_date_time"/>
+        <index name="index">
+            <element name="assigned_group"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index3">
+            <element name="requested_by"/>
+        </index>
+        <index name="index4">
+            <element name="store"/>
+        </index>
+        <index name="index5">
+            <element name="tenant"/>
+        </index>
+    </element>
+</database>

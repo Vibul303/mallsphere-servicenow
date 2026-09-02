@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="New section 2" section_id="eb66f13d472a0b105fdbe481e36d4395" sys_domain="global" table="x_1971559_mallsp_0_lost_found" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>2366f13d472a0b105fdbe481e36d4398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>af66f13d472a0b105fdbe481e36d4398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>2f66f13d472a0b105fdbe481e36d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_category</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>ab66f13d472a0b105fdbe481e36d439a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>2b66f13d472a0b105fdbe481e36d439b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_description</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>a766f13d472a0b105fdbe481e36d439c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>2766f13d472a0b105fdbe481e36d439d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>found_location</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>a366f13d472a0b105fdbe481e36d439e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_found</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>2366f13d472a0b105fdbe481e36d439f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reported_by</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>af66f13d472a0b105fdbe481e36d439f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>claimed_by</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>2f66f13d472a0b105fdbe481e36d43a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>ab66f13d472a0b105fdbe481e36d43a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>claim_date</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>2b66f13d472a0b105fdbe481e36d43a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>a766f13d472a0b105fdbe481e36d43a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>storage_location</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>2766f13d472a0b105fdbe481e36d43a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>a366f13d472a0b105fdbe481e36d43a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>verification_required</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>2366f13d472a0b105fdbe481e36d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>verification_status</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>af66f13d472a0b105fdbe481e36d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_id>2f66f13d472a0b105fdbe481e36d43a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">eb66f13d472a0b105fdbe481e36d4395</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New section 2</caption>
+            <header>false</header>
+            <name>x_1971559_mallsp_0_lost_found</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:56:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb66f13d472a0b105fdbe481e36d4395</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1971559_mallsp_0_lost_found</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+            <sys_update_name>sys_ui_section_eb66f13d472a0b105fdbe481e36d4395</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 14:56:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

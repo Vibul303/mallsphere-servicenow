@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 2" section_id="fc4a491347a6c7105fdbe481e36d437c" sys_domain="global" table="x_1971559_mallsp_0_tenant" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-12 03:33:59</sys_created_on>
+            <sys_id>b44a891347a6c7105fdbe481e36d430e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_tenant" sys_domain="global" view="Default view">fc4a491347a6c7105fdbe481e36d437c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-12 03:33:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New section 2</caption>
+            <header>false</header>
+            <name>x_1971559_mallsp_0_tenant</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-12 03:33:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc4a491347a6c7105fdbe481e36d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1971559_mallsp_0_tenant</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+            <sys_update_name>sys_ui_section_fc4a491347a6c7105fdbe481e36d437c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-12 03:33:58</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</application>
+        <file_path/>
+        <instance_id>5eb0d4a2eba50fd4e483f459bad0cd4d</instance_id>
+        <instance_name>dev410727</instance_name>
+        <name>sys_ui_section_fc4a491347a6c7105fdbe481e36d437c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 2" section_id="fc4a491347a6c7105fdbe481e36d437c" sys_domain="global" table="x_1971559_mallsp_0_tenant" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>notes</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-12 03:33:59</sys_created_on><sys_id>b44a891347a6c7105fdbe481e36d430e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New section 2" display_value="New section 2" name="x_1971559_mallsp_0_tenant" sys_domain="global" view="Default view">fc4a491347a6c7105fdbe481e36d437c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-12 03:33:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 2</caption><header>false</header><name>x_1971559_mallsp_0_tenant</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-12 03:33:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fc4a491347a6c7105fdbe481e36d437c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1971559_mallsp_0_tenant</sys_name><sys_overrides/><sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package><sys_policy/><sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope><sys_update_name>sys_ui_section_fc4a491347a6c7105fdbe481e36d437c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-12 03:33:58</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1154030603</payload_hash>
+        <record_name>Tenant</record_name>
+        <reverted_from/>
+        <source>10694d8d47e283105fdbe481e36d4375</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 03:33:59</sys_created_on>
+        <sys_id>b84a891347a6c7105fdbe481e36d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ff408b6320000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 03:33:59</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>7c4a8913dfa6c710fa43305c39a16410</update_guid>
+        <update_guid_history>7c4a8913dfa6c710fa43305c39a16410:1154030603</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 03:34:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>42ce9a677cda44899fa99abc56cd7691</sys_id>
+        <sys_metadata>fc4a491347a6c7105fdbe481e36d437c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 2</sys_name>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_parent display_value="Tenant">1f121d01476683105fdbe481e36d4393</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_scope_delete display_value="">0ffb337f2f254b1eb0c741d30e5b9e91</sys_scope_delete>
+        <sys_update_name>sys_ui_section_fc4a491347a6c7105fdbe481e36d437c</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_fc4a491347a6c7105fdbe481e36d437c">b84a891347a6c7105fdbe481e36d4311</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 03:34:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

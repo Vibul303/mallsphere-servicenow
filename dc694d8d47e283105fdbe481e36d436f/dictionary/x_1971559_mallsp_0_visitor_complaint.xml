@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="483ba53547e60b105fdbe481e36d434b" label="Visitor Complaint" max_length="40" name="x_1971559_mallsp_0_visitor_complaint" type="collection">
+        <element label="Satisfaction Rating" max_length="40" name="satisfaction_rating" type="integer"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element choice="1" label="Priority" mandatory="true" max_length="255" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="3" value="Critical"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="Low" sequence="0" value="Low"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+            </choice>
+        </element>
+        <element label="Resolution Date" max_length="40" name="resolution_date" type="glide_date_time"/>
+        <element label="Phone Number" mandatory="true" max_length="20" name="phone_number" type="string"/>
+        <element label="Visitor Name" mandatory="true" max_length="100" name="visitor_name" type="string"/>
+        <element label="Resolution" max_length="8000" name="resolution" type="html"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Feedback" max_length="8000" name="feedback" type="html"/>
+        <element label="Complaint Number" mandatory="true" max_length="30" name="complaint_number" type="string"/>
+        <element label="Complaint Description" mandatory="true" max_length="8000" name="complaint_description" type="html"/>
+        <element label="Email" max_length="100" name="email" type="string"/>
+        <element choice="1" label="Status" mandatory="true" max_length="255" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Resolved" sequence="3" value="Resolved"/>
+                <element inactive_on_update="false" label="Assigned" sequence="1" value="Assigned"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="New"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="Closed"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="In Progress"/>
+                <element inactive_on_update="false" label="Rejected" sequence="5" value="Rejected"/>
+            </choice>
+        </element>
+        <element label="Complaint Date" mandatory="true" max_length="40" name="complaint_date" type="glide_date_time"/>
+        <element choice="1" label="Complaint Category" mandatory="true" max_length="255" name="complaint_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Crowd Management" sequence="8" value="Crowd Management"/>
+                <element inactive_on_update="false" label="Lift/Escalator" sequence="6" value="Lift/Escalator"/>
+                <element inactive_on_update="false" label="Food Court" sequence="4" value="Food Court"/>
+                <element inactive_on_update="false" label="Security" sequence="2" value="Security"/>
+                <element inactive_on_update="false" label="Staff Behaviour" sequence="3" value="Staff Behaviour"/>
+                <element inactive_on_update="false" label="Parking" sequence="1" value="Parking"/>
+                <element inactive_on_update="false" label="Other" sequence="9" value="Other"/>
+                <element inactive_on_update="false" label="Cleanliness" sequence="0" value="Cleanliness"/>
+                <element inactive_on_update="false" label="Noise" sequence="7" value="Noise"/>
+                <element inactive_on_update="false" label="Restroom" sequence="5" value="Restroom"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="action_required" label="Action Required" language="en" table="x_1971559_mallsp_0_feedback">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>action_required</element>
+            <help/>
+            <hint/>
+            <label>Action Required</label>
+            <language>en</language>
+            <name>x_1971559_mallsp_0_feedback</name>
+            <plural>Action Required</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-09 06:31:25</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Action Required</sys_name>
+            <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+            <sys_update_name>sys_documentation_x_1971559_mallsp_0_feedback_action_required_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-09 06:46:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

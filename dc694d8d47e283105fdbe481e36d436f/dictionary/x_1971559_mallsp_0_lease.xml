@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="6bd74b8d47e2c3105fdbe481e36d435e" label="Lease" max_length="40" name="x_1971559_mallsp_0_lease" type="collection">
+        <element choice="1" label="Lease Status" mandatory="true" max_length="255" name="lease_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Terminated" sequence="4" value="Terminated"/>
+                <element inactive_on_update="false" label="Expired" sequence="2" value="Expired"/>
+                <element inactive_on_update="false" label="Renewed" sequence="3" value="Renewed"/>
+                <element inactive_on_update="false" label="Active" sequence="1" value="Active"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="Draft"/>
+            </choice>
+        </element>
+        <element label="Notes" max_length="8000" name="notes" type="html"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Monthly Rent" mandatory="true" max_length="20" name="monthly_rent" type="decimal"/>
+        <element label="Contract Document" max_length="255" name="contract_document" type="string"/>
+        <element choice="1" label="Payment Frequency" mandatory="true" max_length="255" name="payment_frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Quarterly" sequence="1" value="Quarterly"/>
+                <element inactive_on_update="false" label="Yearly" sequence="3" value="Yearly"/>
+                <element inactive_on_update="false" label="Half-Yearly" sequence="2" value="Half-Yearly"/>
+                <element inactive_on_update="false" label="Monthly" sequence="0" value="Monthly"/>
+            </choice>
+        </element>
+        <element label="Renewal Reminder (Days)" max_length="40" name="renewal_reminder_days" type="integer"/>
+        <element label="Lease End Date" mandatory="true" max_length="40" name="lease_end_date" type="glide_date_time"/>
+        <element label="Approval Date" max_length="40" name="approval_date" type="glide_date_time"/>
+        <element label="Approved By" max_length="32" name="approved_by" reference="sys_user" type="reference"/>
+        <element label="Tenant" mandatory="true" max_length="32" name="tenant" reference="x_1971559_mallsp_0_tenant" type="reference"/>
+        <element label="Store" mandatory="true" max_length="32" name="store" reference="x_1971559_mallsp_0_store" type="reference"/>
+        <element label="Lease Number" mandatory="true" max_length="30" name="lease_number" type="string"/>
+        <element label="Lease Start Date" mandatory="true" max_length="40" name="lease_start_date" type="glide_date_time"/>
+        <element label="Security Deposit" mandatory="true" max_length="20" name="security_deposit" type="decimal"/>
+        <index name="index">
+            <element name="approved_by"/>
+        </index>
+        <index name="index2">
+            <element name="store"/>
+        </index>
+        <index name="index3">
+            <element name="tenant"/>
+        </index>
+    </element>
+</database>

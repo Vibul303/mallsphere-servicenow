@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=863400000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>lease_expiry_reminder</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.tenant.email","label":"Trigger - Record Created or Updated➛Lease Record➛Tenant➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1971559_mallsp_0_tenant","column_name":"email","usedInstances":{"b833b67b-9f88-4ca5-8ffa-e339d7762bcc":["ah_to"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Lease Record","reference":"x_1971559_mallsp_0_lease","reference_display":"Lease","type":"reference","base_type":"reference","usedInstances":{"b833b67b-9f88-4ca5-8ffa-e339d7762bcc":["record"]},"attributes":{}},{"name":"Created or Updated_1.run_start_date_time","label":"Trigger - Record Created or Updated➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"d18eaa48-e1bf-473f-9ef8-92c480cc3d8e":["condition"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created or Updated_1.current.lease_end_date","label":"Trigger - Record Created or Updated➛Lease Record➛Lease End Date","reference":"","reference_display":"Lease End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1971559_mallsp_0_lease","column_name":"lease_end_date","usedInstances":{"d18eaa48-e1bf-473f-9ef8-92c480cc3d8e":["condition"]}}]</label_cache>
+        <master_snapshot>3552a74b473287905fdbe481e36d4345</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Lease Expiry Reminder</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>c652a74b473287905fdbe481e36d43cc</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 06:25:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eeb48c44473e0f105fdbe481e36d436c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Lease Expiry Reminder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name>sys_hub_flow_eeb48c44473e0f105fdbe481e36d436c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:39</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>9652e74b473287905fdbe481e36d432d</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=eeb48c44473e0f105fdbe481e36d436c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=eeb48c44473e0f105fdbe481e36d436c"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1971559_mallsp_0_lease">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-24 06:15:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c652a74b473287905fdbe481e36d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:39</sys_updated_on>
+        <table>x_1971559_mallsp_0_lease</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>eeb48c44473e0f105fdbe481e36d436c</identifier>
+        <identifier_type>flow</identifier_type>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-24 06:15:39</sys_created_on>
+        <sys_id>0e52a74b473287905fdbe481e36d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:39</sys_updated_on>
+        <trigger display_value="">c652a74b473287905fdbe481e36d43cc</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=eeb48c44473e0f105fdbe481e36d436c^sys_idNOT IN0e52a74b473287905fdbe481e36d43cd"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=eeb48c44473e0f105fdbe481e36d436c"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=eeb48c44473e0f105fdbe481e36d436c^sys_idNOT INaab48c44473e0f105fdbe481e36d436d"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>eeb48c44473e0f105fdbe481e36d436c</id>
+        <name>Lease Expiry Reminder</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 06:25:37</sys_created_on>
+        <sys_id>aab48c44473e0f105fdbe481e36d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 06:25:37</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=aab48c44473e0f105fdbe481e36d436d"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=eeb48c44473e0f105fdbe481e36d436c^sys_idNOT IN66e40c84473e0f105fdbe481e36d432f,72e48c84473e0f105fdbe481e36d433d,f2e48c84473e0f105fdbe481e36d4348"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Lease Expiry Reminder">eeb48c44473e0f105fdbe481e36d436c</model>
+        <model_id>eeb48c44473e0f105fdbe481e36d436c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_eeb48c44473e0f105fdbe481e36d436c</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 06:26:26</sys_created_on>
+        <sys_id>66e40c84473e0f105fdbe481e36d432f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 05:19:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=66e40c84473e0f105fdbe481e36d432f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Lease Expiry Reminder">eeb48c44473e0f105fdbe481e36d436c</model>
+        <model_id>eeb48c44473e0f105fdbe481e36d436c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_eeb48c44473e0f105fdbe481e36d436c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 06:26:27</sys_created_on>
+        <sys_id>72e48c84473e0f105fdbe481e36d433d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 05:19:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=72e48c84473e0f105fdbe481e36d433d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Lease Expiry Reminder">eeb48c44473e0f105fdbe481e36d436c</model>
+        <model_id>eeb48c44473e0f105fdbe481e36d436c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_eeb48c44473e0f105fdbe481e36d436c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 06:26:27</sys_created_on>
+        <sys_id>f2e48c84473e0f105fdbe481e36d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 06:26:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f2e48c84473e0f105fdbe481e36d4348"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=eeb48c44473e0f105fdbe481e36d436c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=eeb48c44473e0f105fdbe481e36d436c"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=eeb48c44473e0f105fdbe481e36d436c^sys_idNOT IN56e40c84473e0f105fdbe481e36d4326"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Lease Expiry Reminder">eeb48c44473e0f105fdbe481e36d436c</flow>
+        <generation_source/>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 06:26:25</sys_created_on>
+        <sys_id>56e40c84473e0f105fdbe481e36d4326</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:37</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=eeb48c44473e0f105fdbe481e36d436c^sys_idNOT INfc81530b47be47905fdbe481e36d43b5"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Lease Expiry Reminder">eeb48c44473e0f105fdbe481e36d436c</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-24 05:02:07</sys_created_on>
+        <sys_id>fc81530b47be47905fdbe481e36d43b5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-27 04:32:33</sys_updated_on>
+        <ui_id>b833b67b-9f88-4ca5-8ffa-e339d7762bcc</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YW3PaOhD+Kxo/U2ruoW8NaWiYhJ5wh6bDyLLASuRLbTnEyfDfz8oW2EBKoU3npHPywNhe7Urfrr5PF74+aczUPmhl80SvGrMyrumlYknXT4r1ulGqz/STWl0vEFPLaQ62KXj6lLi+/L7HPJSGp6eGT7GgJnJ91PdM+Tot5Eno+9QRyyW4mizwOI4GKgIsxGLchHbtw9dvOc3DPnQuqK99eNpqOhQdxwbl4NrD/pwK1Fmh3EYtIk9+my4JbYA3ZSvjpergTLWgizNogSCJSs9p9EFQx6QAZ4Z5QHOajR3I1fWjtQXKYH5xeGqwmCOgy49B4BIGdQmQsCiiNmYcLZiwEEYJsLwm+3sI2COAKxVlVzMKNSASK3MIMwGRljFPVUmh+SJtnp1hgbvCD4kI/XWlXUZokFTTpDMcctHI2hKHL55grpOECGzwVbTLQ9tpJ0XU1h1kZjIMAAz1ZG1ksjA4JD7rWu6iswJ7zpy4iqoq3CWYr79mXYp9Yp0zyuVUO6FtgG9Ow0L4zAiFhAmk4OCVjjONocqxwJNyGk+ljT2POfOp57v3LB4Q4Nv5OYeP/Iy7C4gP2NzJYyJzzcPs4fw52M9i8wD7TCZ+Bd1A8DKnBVHQ4DgI0vSh/tPvoUSfFGMTjoyexoSTwcRnnvgIQ91Tlewyp9RWqO/js1lOeZvpM1Xcw7RQrxUqlTqkzHngTfUplCegu0q7VObj5HYAvFRukirPw1VS27FdZmNRO2lQQiscKbSEbkpnPRCXSPSfyAoJBW+trRN9U1s/0NTr0NJaIQeLaVM0f0YYQJJgmrBb5RYP/guC+ZlM9GrVMKpGpVZKeVgnM7NmzKq4Rkop7xawuPo29u+m8eKa0UphVxRq2ThOEwdgWWkCFmQemhQNV6D24VQiMVwXJOxsKwSQvj+Pq7tWSPG3tqKEmki4CCaTR7ABrSFJY7o9CQsLxAIUwGzlUc9FTGWVicihyA2RHQYC3AS0bIhvY08rv17dKToo69mzXPkrhPnyAqzs3whwSmxsTYV78KEwD/zF8IiptlyiXY0eHX+cmg9IbL3DubtZKtEGMKfOfEuz3ZVR6bW0X6/JBrYj18yGpb9e6fwtypDAObNZTIhE0y8mlpVRok/4AS/PiWq5lpW5l31U3yAcIRlZvcBd6oDBV9RvNHaRHEP98q9tVW/c/1u4n15o9l7QaXWDR8ZLU/qA0VeUPt3itHE0qStvpP6fkLqyn1Zkg0hBaNxSIjLEju/e6NODx/wIdagd1+zGv3Fu/B9c1H/ofOTh5ue4V3LorlE/l8kxsqi+HXP+c1W8vATwXirNiptrqWtGGf7fhLpeIh6SmN8J5kQ2ob7rCgMKcxc3mjfaTeJGE+fAw07iH3A48b+b+Xgu67TybvXMRqt3ERnF1vfJsK3L91avfSqfk2b91hwWuOFc86vbC351dwXP1t141LFSPxlvfmr1WmdxP3b9bjK6Svz1T7zdv+Bt/ULG3Y9tj49L1+s2sDEDxsBRP7pi/ehaPp1OhTT7WZ/FeNSyJqWWRZrzP4VDn4wslbuKbw4s0x48pv0PGvtqJf0nbCMPTj9vjNEwip2K8l8Mh/UCkf7NBz4etbm04ea5HG9B7IE1Llp80pDtXCeyv+agTJo8ol353rHMZj+Uvv1MPMQV8XBQku9m04ptEhcpynqeWoYt8Zzq46HgGz724HYyaj9CnSuqn3AyMi0jHv/81mzye4OVs7UX4OuTZN4er7v9wjXrFzqNfgl+zz8/KsatWBpzdOyGPor/aEUWDhAsZsSCCyoTAaLJwi2vqXn0T+Lj03tGF/FfKokBVkMk8B2NTQ6FpSnAEARrB11gjpTEEyW8l1LISuO9l3ztbh1KZ9s6el2Yj9vBDlh21ge6ZNHZWYXU3mUJm2/tXJ97V5fpvlX7zeNctVIpVd92rt8+z3kLs2j6ruep3F74TPftX1r23PTpHAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fc81530b47be47905fdbe481e36d43b5"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=eeb48c44473e0f105fdbe481e36d436c"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=eeb48c44473e0f105fdbe481e36d436c^sys_idNOT IN5dcb034f477e47905fdbe481e36d43ec"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">9dcb034f477e47905fdbe481e36d43eb</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Lease Expiry Reminder">eeb48c44473e0f105fdbe481e36d436c</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-24 04:37:01</sys_created_on>
+        <sys_id>5dcb034f477e47905fdbe481e36d43ec</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:37</sys_updated_on>
+        <ui_id>d18eaa48-e1bf-473f-9ef8-92c480cc3d8e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1U22obMRD9FaNns+x6Y9P4LaQECm0DTZqXNoixNGuLaqWtLnZc43/vaC+OiR1aSulT31ZHczln5mh3zMbQxODv7ZX3amnY/MvjmCmTMPreMQM1sjkT1kgVlDVszNagY8J2u2uHEFCOrBt9bmT65EUmonNoQqYRPHI0kqeb/f5rzPNSvJLkouE+gAttMA+qpgzqJZVvNGwf/mFLsVJaUrluFA04mkBAx+a7F1dh2yDXsEBNzO6CU2ZJ6UrS6RKm1bTIp6KczMpJnk/eXBSLWbkoJrIEvJhR3JB4fTTZM8NOTQjyQ3nrZOIyyccMnwJJRepXgfY4ZjUYkmLdls2DiwSQbHlr9PYQsVImUDWWYp+8+oGpUp6nyApJmMDu9nDk/QI6WKysEnjbtNxaJMBC9znC6libj52EtDqsIOowrI6QSMuR2CTSiUbPqbpb2c2noeGNMq3A/lJbAfpwgkBjWMSAPm0DNdZUiNfQNDQc3ji7Vm0ycamzpaZDVmm7oabJ2xmIRDyjGUF2Q/jbFn4Ap5KKD1SGkmmDnnvhVDNoa5uzfTsV/j0mPp2+XgnvhkEBXdoVtVljT3o/Pn1DvAWeH9Kpz/+SDascquJSFOdtCOU5G47et8ipGQfWrziy+IUje+S3LDmd/nfksSMTzQV4JXj7Z6Zy6X3/sSUfk/W6Fr7zkEShPDG5T9i74e+fLra0dSWOoY1135KGZ2z/E7CSUf1HBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=eeb48c44473e0f105fdbe481e36d436c"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=eeb48c44473e0f105fdbe481e36d436c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_eeb48c44473e0f105fdbe481e36d436c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 06:26:27</sys_created_on>
+        <sys_id>2ee48c84473e0f105fdbe481e36d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 06:26:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_eeb48c44473e0f105fdbe481e36d436c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 06:26:27</sys_created_on>
+        <sys_id>7ee48c84473e0f105fdbe481e36d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 06:26:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_eeb48c44473e0f105fdbe481e36d436c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 06:26:27</sys_created_on>
+        <sys_id>bee48c84473e0f105fdbe481e36d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 06:26:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_eeb48c44473e0f105fdbe481e36d436c"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_eeb48c44473e0f105fdbe481e36d436c"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>lease_expiry_reminder</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.tenant.email","label":"Trigger - Record Created or Updated➛Lease Record➛Tenant➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1971559_mallsp_0_tenant","column_name":"email","usedInstances":{"b833b67b-9f88-4ca5-8ffa-e339d7762bcc":["ah_to"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Lease Record","reference":"x_1971559_mallsp_0_lease","reference_display":"Lease","type":"reference","base_type":"reference","usedInstances":{"b833b67b-9f88-4ca5-8ffa-e339d7762bcc":["record"]},"attributes":{}},{"name":"Created or Updated_1.run_start_date_time","label":"Trigger - Record Created or Updated➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"d18eaa48-e1bf-473f-9ef8-92c480cc3d8e":["condition"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created or Updated_1.current.lease_end_date","label":"Trigger - Record Created or Updated➛Lease Record➛Lease End Date","reference":"","reference_display":"Lease End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1971559_mallsp_0_lease","column_name":"lease_end_date","usedInstances":{"d18eaa48-e1bf-473f-9ef8-92c480cc3d8e":["condition"]}}]</label_cache>
+        <master>true</master>
+        <name>Lease Expiry Reminder</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Lease Expiry Reminder">eeb48c44473e0f105fdbe481e36d436c</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-24 06:15:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3552a74b473287905fdbe481e36d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:38</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=3552a74b473287905fdbe481e36d4345"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3552a74b473287905fdbe481e36d4345"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3552a74b473287905fdbe481e36d4345"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3552a74b473287905fdbe481e36d4345^sys_idNOT IN7152a74b473287905fdbe481e36d4346"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3552a74b473287905fdbe481e36d4345</id>
+        <name>Lease Expiry Reminder</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-24 06:15:38</sys_created_on>
+        <sys_id>7152a74b473287905fdbe481e36d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:38</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7152a74b473287905fdbe481e36d4346"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=3552a74b473287905fdbe481e36d4345^sys_idNOT IN3552a74b473287905fdbe481e36d4365,b552a74b473287905fdbe481e36d4359,fd52a74b473287905fdbe481e36d4347"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Lease Expiry Reminder">3552a74b473287905fdbe481e36d4345</model>
+        <model_id>3552a74b473287905fdbe481e36d4345</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3552a74b473287905fdbe481e36d4345</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-24 06:15:38</sys_created_on>
+        <sys_id>3552a74b473287905fdbe481e36d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3552a74b473287905fdbe481e36d4365"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Lease Expiry Reminder">3552a74b473287905fdbe481e36d4345</model>
+        <model_id>3552a74b473287905fdbe481e36d4345</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3552a74b473287905fdbe481e36d4345</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-24 06:15:38</sys_created_on>
+        <sys_id>b552a74b473287905fdbe481e36d4359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b552a74b473287905fdbe481e36d4359"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Lease Expiry Reminder">3552a74b473287905fdbe481e36d4345</model>
+        <model_id>3552a74b473287905fdbe481e36d4345</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_3552a74b473287905fdbe481e36d4345</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-24 06:15:38</sys_created_on>
+        <sys_id>fd52a74b473287905fdbe481e36d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fd52a74b473287905fdbe481e36d4347"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=3552a74b473287905fdbe481e36d4345"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3552a74b473287905fdbe481e36d4345"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=3552a74b473287905fdbe481e36d4345^sys_idNOT IN7552a74b473287905fdbe481e36d4396"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Lease Expiry Reminder">3552a74b473287905fdbe481e36d4345</flow>
+        <generation_source/>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-24 06:15:38</sys_created_on>
+        <sys_id>7552a74b473287905fdbe481e36d4396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:38</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=3552a74b473287905fdbe481e36d4345^sys_idNOT IN7152a74b473287905fdbe481e36d4394"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Lease Expiry Reminder">3552a74b473287905fdbe481e36d4345</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-24 06:15:38</sys_created_on>
+        <sys_id>7152a74b473287905fdbe481e36d4394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:38</sys_updated_on>
+        <ui_id>b833b67b-9f88-4ca5-8ffa-e339d7762bcc</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YW3PaOhD+Kxo/U2ruoW8NaWiYhJ5wh6bDyLLASuRLbTnEyfDfz8oW2EBKoU3npHPywNhe7Urfrr5PF74+aczUPmhl80SvGrMyrumlYknXT4r1ulGqz/STWl0vEFPLaQ62KXj6lLi+/L7HPJSGp6eGT7GgJnJ91PdM+Tot5Eno+9QRyyW4mizwOI4GKgIsxGLchHbtw9dvOc3DPnQuqK99eNpqOhQdxwbl4NrD/pwK1Fmh3EYtIk9+my4JbYA3ZSvjpergTLWgizNogSCJSs9p9EFQx6QAZ4Z5QHOajR3I1fWjtQXKYH5xeGqwmCOgy49B4BIGdQmQsCiiNmYcLZiwEEYJsLwm+3sI2COAKxVlVzMKNSASK3MIMwGRljFPVUmh+SJtnp1hgbvCD4kI/XWlXUZokFTTpDMcctHI2hKHL55grpOECGzwVbTLQ9tpJ0XU1h1kZjIMAAz1ZG1ksjA4JD7rWu6iswJ7zpy4iqoq3CWYr79mXYp9Yp0zyuVUO6FtgG9Ow0L4zAiFhAmk4OCVjjONocqxwJNyGk+ljT2POfOp57v3LB4Q4Nv5OYeP/Iy7C4gP2NzJYyJzzcPs4fw52M9i8wD7TCZ+Bd1A8DKnBVHQ4DgI0vSh/tPvoUSfFGMTjoyexoSTwcRnnvgIQ91Tlewyp9RWqO/js1lOeZvpM1Xcw7RQrxUqlTqkzHngTfUplCegu0q7VObj5HYAvFRukirPw1VS27FdZmNRO2lQQiscKbSEbkpnPRCXSPSfyAoJBW+trRN9U1s/0NTr0NJaIQeLaVM0f0YYQJJgmrBb5RYP/guC+ZlM9GrVMKpGpVZKeVgnM7NmzKq4Rkop7xawuPo29u+m8eKa0UphVxRq2ThOEwdgWWkCFmQemhQNV6D24VQiMVwXJOxsKwSQvj+Pq7tWSPG3tqKEmki4CCaTR7ABrSFJY7o9CQsLxAIUwGzlUc9FTGWVicihyA2RHQYC3AS0bIhvY08rv17dKToo69mzXPkrhPnyAqzs3whwSmxsTYV78KEwD/zF8IiptlyiXY0eHX+cmg9IbL3DubtZKtEGMKfOfEuz3ZVR6bW0X6/JBrYj18yGpb9e6fwtypDAObNZTIhE0y8mlpVRok/4AS/PiWq5lpW5l31U3yAcIRlZvcBd6oDBV9RvNHaRHEP98q9tVW/c/1u4n15o9l7QaXWDR8ZLU/qA0VeUPt3itHE0qStvpP6fkLqyn1Zkg0hBaNxSIjLEju/e6NODx/wIdagd1+zGv3Fu/B9c1H/ofOTh5ue4V3LorlE/l8kxsqi+HXP+c1W8vATwXirNiptrqWtGGf7fhLpeIh6SmN8J5kQ2ob7rCgMKcxc3mjfaTeJGE+fAw07iH3A48b+b+Xgu67TybvXMRqt3ERnF1vfJsK3L91avfSqfk2b91hwWuOFc86vbC351dwXP1t141LFSPxlvfmr1WmdxP3b9bjK6Svz1T7zdv+Bt/ULG3Y9tj49L1+s2sDEDxsBRP7pi/ehaPp1OhTT7WZ/FeNSyJqWWRZrzP4VDn4wslbuKbw4s0x48pv0PGvtqJf0nbCMPTj9vjNEwip2K8l8Mh/UCkf7NBz4etbm04ea5HG9B7IE1Llp80pDtXCeyv+agTJo8ol353rHMZj+Uvv1MPMQV8XBQku9m04ptEhcpynqeWoYt8Zzq46HgGz724HYyaj9CnSuqn3AyMi0jHv/81mzye4OVs7UX4OuTZN4er7v9wjXrFzqNfgl+zz8/KsatWBpzdOyGPor/aEUWDhAsZsSCCyoTAaLJwi2vqXn0T+Lj03tGF/FfKokBVkMk8B2NTQ6FpSnAEARrB11gjpTEEyW8l1LISuO9l3ztbh1KZ9s6el2Yj9vBDlh21ge6ZNHZWYXU3mUJm2/tXJ97V5fpvlX7zeNctVIpVd92rt8+z3kLs2j6ruep3F74TPftX1r23PTpHAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7152a74b473287905fdbe481e36d4394"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=3552a74b473287905fdbe481e36d4345"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=3552a74b473287905fdbe481e36d4345^sys_idNOT INb152a74b473287905fdbe481e36d4391"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">9dcb034f477e47905fdbe481e36d43eb</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Lease Expiry Reminder">3552a74b473287905fdbe481e36d4345</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-24 06:15:38</sys_created_on>
+        <sys_id>b152a74b473287905fdbe481e36d4391</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:38</sys_updated_on>
+        <ui_id>d18eaa48-e1bf-473f-9ef8-92c480cc3d8e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXW/TMBT9K5Ofqyhp1or1beo0CQmYxMZeYLJubKe1cOzgj3Yh6n/nOh9ttRbBBOKJt/j43utzTo6Tlpjg6+Ddg7l2Tq40WXx+mhCpI4bPLdFQCbIgzGguvTSaTMgGVIhY2y6tAC/4hbEXn2oeH2mWsGCt0D5RApygQnMad3a7LyFNc/aTJhs0dR6s74qplxV24FlculpB8/gPj2RrqTiO662owaIDXliyaF9sSY6MrmBWzrJ0xvLpPJ+m6fTNZVbM8yKb8hzE5RwHKiiEwtLlkYdnbPVNHSHnrdSrYf1uaL0fQWN5pDJNJ0Q8e1QqkEQJyokJqUCjEmMbsvA2IICq+Z1Wzb5iLbXHaSTWPjv5XcRJaRorS4G6mOh390s6+N/D5Q14QCqB+WCHUrY2kgnXO8JFCUH55THWF9zVncquxUOhxm6jQqU/9GaQ/YDxdSMS8IVyUUelkfsgpLxfm+3HkeWt1J0rw6YyDNR+BR69K4KPfFoilKhwEK2grtFRWluzkV0zcqmSlcJFUiqzxUPjfUiAReIJGgvJLeI3HfwIVkYV73EMNmMWHHXMynrU1h1OdhPiGrdU4NxBI5pLv4XIsFc8aKO9PbGlG3SNB2/EIGM3Ob2JtAMO1/H0trw6zGUKZXbFsvNhhvxcmC/6jJ5GeuT3mlxnv8j1gPxWsGez/7n+41xHmgU4yWj3T8Bx8dPyF4P9FAPcH7o3m0mH3B4i9nb8E8WNBhMl2TG0NfZrVHXAdj8A0klUXtMGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3552a74b473287905fdbe481e36d4345"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3552a74b473287905fdbe481e36d4345"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3552a74b473287905fdbe481e36d4345</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-24 06:15:38</sys_created_on>
+        <sys_id>3152a74b473287905fdbe481e36d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3552a74b473287905fdbe481e36d4345</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-24 06:15:38</sys_created_on>
+        <sys_id>b552a74b473287905fdbe481e36d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3552a74b473287905fdbe481e36d4345</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-24 06:15:38</sys_created_on>
+        <sys_id>bd52a74b473287905fdbe481e36d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3552a74b473287905fdbe481e36d4345"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3552a74b473287905fdbe481e36d4345"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>eeb48c44473e0f105fdbe481e36d436c</sys_id>
+        <latest_snapshot>3552a74b473287905fdbe481e36d4345</latest_snapshot>
+        <compiler_build>glide-australia-02-11-2026__patch3-05-25-2026_06-12-2026_1106.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=eeb48c44473e0f105fdbe481e36d436c^sys_idNOT IN0e52a74b473287905fdbe481e36d43ce"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_trigger_plan","id":"0e52a74b473287905fdbe481e36d43ce","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
+        <plan_id>eeb48c44473e0f105fdbe481e36d436c</plan_id>
+        <snapshot>f487ae88474b43105fdbe481e36d4309</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-24 06:15:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0e52a74b473287905fdbe481e36d43ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-24 06:15:39</sys_updated_on>
+        <trigger display_value="">c652a74b473287905fdbe481e36d43cc</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=eeb48c44473e0f105fdbe481e36d436c"/>
+</record_update>

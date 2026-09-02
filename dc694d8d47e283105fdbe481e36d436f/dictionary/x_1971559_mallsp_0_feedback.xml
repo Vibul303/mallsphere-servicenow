@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="f564521e472203105fdbe481e36d434d" label="Feedback" max_length="40" name="x_1971559_mallsp_0_feedback" type="collection">
+        <element default="False" label="Action Required" mandatory="true" max_length="40" name="action_required" type="boolean"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Visitor Name" max_length="100" name="visitor_name" type="string"/>
+        <element label="Resolution Notes" max_length="8000" name="resolution_notes" type="html"/>
+        <element label="Feedback Date" mandatory="true" max_length="40" name="feedback_date" type="glide_date_time"/>
+        <element label="Feedback Number" mandatory="true" max_length="30" name="feedback_number" type="string"/>
+        <element label="Tenant" max_length="32" name="tenant" reference="x_1971559_mallsp_0_tenant" type="reference"/>
+        <element choice="1" label="Feedback Category" mandatory="true" max_length="255" name="feedback_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Parking" sequence="3" value="Parking"/>
+                <element inactive_on_update="false" label="Cleanliness" sequence="1" value="Cleanliness"/>
+                <element inactive_on_update="false" label="Other" sequence="9" value="Other"/>
+                <element inactive_on_update="false" label="Overall Experience" sequence="0" value="Overall Experience"/>
+                <element inactive_on_update="false" label="Facilities" sequence="7" value="Facilities"/>
+                <element inactive_on_update="false" label="Shopping" sequence="5" value="Shopping"/>
+                <element inactive_on_update="false" label="Staff Service" sequence="6" value="Staff Service"/>
+                <element inactive_on_update="false" label="Food Court" sequence="4" value="Food Court"/>
+                <element inactive_on_update="false" label="Security" sequence="2" value="Security"/>
+                <element inactive_on_update="false" label="Entertainment" sequence="8" value="Entertainment"/>
+            </choice>
+        </element>
+        <element label="Comments" max_length="8000" name="comments" type="html"/>
+        <element choice="1" label="Status" mandatory="true" max_length="255" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Action Required" sequence="2" value="Action Required"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="Closed"/>
+                <element inactive_on_update="false" label="Resolved" sequence="3" value="Resolved"/>
+                <element inactive_on_update="false" label="Reviewed" sequence="1" value="Reviewed"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="New"/>
+            </choice>
+        </element>
+        <element label="Rating" mandatory="true" max_length="40" name="rating" type="integer"/>
+        <element label="Submitted By" max_length="32" name="submitted_by" reference="sys_user" type="reference"/>
+        <element label="Email" max_length="100" name="email" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Sentiment" max_length="255" name="sentiment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Positive" sequence="0" value="Positive"/>
+                <element inactive_on_update="false" label="Neutral" sequence="1" value="Neutral"/>
+                <element inactive_on_update="false" label="Negative" sequence="2" value="Negative"/>
+            </choice>
+        </element>
+        <element label="Store" max_length="32" name="store" reference="x_1971559_mallsp_0_store" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="store"/>
+        </index>
+        <index name="index3">
+            <element name="submitted_by"/>
+        </index>
+        <index name="index4">
+            <element name="tenant"/>
+        </index>
+    </element>
+</database>

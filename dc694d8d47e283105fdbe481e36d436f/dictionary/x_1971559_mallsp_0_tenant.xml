@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="1f121d01476683105fdbe481e36d4393" label="Tenant" max_length="40" name="x_1971559_mallsp_0_tenant" type="collection">
+        <element label="Notes" max_length="8000" name="notes" type="html"/>
+        <element label="Emergency Contact" max_length="40" name="emergency_contact" type="phone_number_e164"/>
+        <element choice="1" label="Business Category" mandatory="true" max_length="255" name="business_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Footwear" sequence="3" value="Footwear"/>
+                <element inactive_on_update="false" label="Accessories" sequence="11" value="Accessories"/>
+                <element inactive_on_update="false" label="Electronics" sequence="1" value="Electronics"/>
+                <element inactive_on_update="false" label="Sports" sequence="9" value="Sports"/>
+                <element inactive_on_update="false" label="Entertainment" sequence="7" value="Entertainment"/>
+                <element inactive_on_update="false" label="Food Court" sequence="5" value="Food Court"/>
+                <element inactive_on_update="false" label="Fashion" sequence="0" value="Fashion"/>
+                <element inactive_on_update="false" label="Hypermarket" sequence="6" value="Hypermarket"/>
+                <element inactive_on_update="false" label="Restaurant" sequence="4" value="Restaurant"/>
+                <element inactive_on_update="false" label="Other" sequence="12" value="Other"/>
+                <element inactive_on_update="false" label="Jewellery" sequence="2" value="Jewellery"/>
+                <element inactive_on_update="false" label="Beauty" sequence="10" value="Beauty"/>
+                <element inactive_on_update="false" label="Books" sequence="8" value="Books"/>
+            </choice>
+        </element>
+        <element label="Store Count" max_length="40" name="store_count" type="integer"/>
+        <element choice="1" label="Status" mandatory="true" max_length="255" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Expired" sequence="4" value="Expired"/>
+                <element inactive_on_update="false" label="Pending" sequence="2" value="Pending"/>
+                <element inactive_on_update="false" label="Inactive" sequence="1" value="Inactive"/>
+                <element inactive_on_update="false" label="Active" sequence="0" value="Active"/>
+                <element inactive_on_update="false" label="Suspended" sequence="3" value="Suspended"/>
+            </choice>
+        </element>
+        <element label="Tenant Rating" max_length="20" name="tenant_rating" type="decimal"/>
+        <element label="GST Number" max_length="20" name="gst_number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Contact Person" mandatory="true" max_length="32" name="contact_person" reference="sys_user" type="reference"/>
+        <element label="Lease Start Date" mandatory="true" max_length="40" name="lease_start_date" type="glide_date"/>
+        <element label="Phone Number" mandatory="true" max_length="40" name="phone_number" type="string"/>
+        <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element label="Tenant Number" mandatory="true" max_length="30" name="tenant_number" type="string"/>
+        <element label="Tenant Name" mandatory="true" max_length="150" name="tenant_name" type="string"/>
+        <element label="Lease End Date" mandatory="true" max_length="40" name="lease_end_date" type="glide_date"/>
+        <element label="Address" max_length="8000" name="address" type="html"/>
+        <index name="index">
+            <element name="contact_person"/>
+        </index>
+    </element>
+</database>

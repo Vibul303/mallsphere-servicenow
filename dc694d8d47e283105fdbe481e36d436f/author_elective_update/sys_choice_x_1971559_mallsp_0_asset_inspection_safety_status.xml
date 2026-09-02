@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="safety_status" table="x_1971559_mallsp_0_asset_inspection" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>safety_status</element>
+            <name>x_1971559_mallsp_0_asset_inspection</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-09 06:13:14</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>safety_status</sys_name>
+            <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+            <sys_update_name>sys_choice_x_1971559_mallsp_0_asset_inspection_safety_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-09 06:13:14</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>safety_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Safe</label>
+            <language>en</language>
+            <name>x_1971559_mallsp_0_asset_inspection</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-09 06:13:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-09 06:13:14</sys_updated_on>
+            <value>Safe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>safety_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Safe With Observation</label>
+            <language>en</language>
+            <name>x_1971559_mallsp_0_asset_inspection</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-09 06:13:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-09 06:13:14</sys_updated_on>
+            <value>Safe With Observation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>safety_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unsafe</label>
+            <language>en</language>
+            <name>x_1971559_mallsp_0_asset_inspection</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-09 06:13:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-09 06:13:14</sys_updated_on>
+            <value>Unsafe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>safety_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Applicable</label>
+            <language>en</language>
+            <name>x_1971559_mallsp_0_asset_inspection</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-09 06:13:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-09 06:13:14</sys_updated_on>
+            <value>Not Applicable</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

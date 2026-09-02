@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_1971559_mallsp_0.store_user" name="x_1971559_mallsp_0.store_user">13e0028d47aa83105fdbe481e36d43bd</contains>
+        <role display_value="x_1971559_mallsp_0.admin" name="x_1971559_mallsp_0.admin">df2e169247a203105fdbe481e36d4383</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-22 05:06:47</sys_created_on>
+        <sys_id>396f742247be03905fdbe481e36d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1971559_mallsp_0.store_user.x_1971559_mallsp_0.admin</sys_name>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name>sys_user_role_contains_396f742247be03905fdbe481e36d436c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-22 05:06:47</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

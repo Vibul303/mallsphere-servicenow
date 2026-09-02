@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-27 08:55:36</sys_created_on>
+        <sys_id>04a3ebc4474383105fdbe481e36d43ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1971559_mallsp_0_tenant.x_1971559_mallsp_0.manager</sys_name>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_security_acl display_value="x_1971559_mallsp_0_tenant">2653d80747ae07105fdbe481e36d4350</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_04a3ebc4474383105fdbe481e36d43ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-27 08:55:36</sys_updated_on>
+        <sys_user_role display_value="x_1971559_mallsp_0.manager" name="x_1971559_mallsp_0.manager">13beda12476203105fdbe481e36d4314</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</application>
+        <file_path/>
+        <instance_id>5eb0d4a2eba50fd4e483f459bad0cd4d</instance_id>
+        <instance_name>dev410727</instance_name>
+        <name>sys_security_acl_role_04a3ebc4474383105fdbe481e36d43ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-27 08:55:36</sys_created_on><sys_id>04a3ebc4474383105fdbe481e36d43ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1971559_mallsp_0_tenant.x_1971559_mallsp_0.manager</sys_name><sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package><sys_policy/><sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope><sys_security_acl display_value="x_1971559_mallsp_0_tenant">2653d80747ae07105fdbe481e36d4350</sys_security_acl><sys_update_name>sys_security_acl_role_04a3ebc4474383105fdbe481e36d43ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-27 08:55:36</sys_updated_on><sys_user_role display_value="x_1971559_mallsp_0.manager" name="x_1971559_mallsp_0.manager">13beda12476203105fdbe481e36d4314</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>527156528</payload_hash>
+        <record_name>x_1971559_mallsp_0_tenant.x_1971559_mallsp_0.manager</record_name>
+        <reverted_from/>
+        <source>10694d8d47e283105fdbe481e36d4375</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-27 08:55:36</sys_created_on>
+        <sys_id>56b32f08474383105fdbe481e36d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0426e8d600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-27 08:55:36</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>5eb32f082a438310bb555ac331a67b55</update_guid>
+        <update_guid_history>5eb32f082a438310bb555ac331a67b55:527156528</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1971559_mallsp_0_tenant.x_1971559_mallsp_0.manager">34d4e348474383105fdbe481e36d4360</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-27 09:00:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>010e193c15c04ade80021beee8b22ec4</sys_id>
+        <sys_metadata>04a3ebc4474383105fdbe481e36d43ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1971559_mallsp_0_tenant.x_1971559_mallsp_0.manager</sys_name>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_parent display_value="x_1971559_mallsp_0_tenant">2653d80747ae07105fdbe481e36d4350</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_scope_delete display_value="">0ffb337f2f254b1eb0c741d30e5b9e91</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_04a3ebc4474383105fdbe481e36d43ab</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_04a3ebc4474383105fdbe481e36d43ab">56b32f08474383105fdbe481e36d4363</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-27 09:00:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

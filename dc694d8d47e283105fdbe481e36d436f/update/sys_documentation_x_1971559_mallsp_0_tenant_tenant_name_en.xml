@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="tenant_name" label="Tenant Name" language="en" table="x_1971559_mallsp_0_tenant">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>tenant_name</element>
+            <help/>
+            <hint/>
+            <label>Tenant Name</label>
+            <language>en</language>
+            <name>x_1971559_mallsp_0_tenant</name>
+            <plural>Tenant Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-05 04:43:14</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Tenant Name</sys_name>
+            <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+            <sys_update_name>sys_documentation_x_1971559_mallsp_0_tenant_tenant_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-05 04:51:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

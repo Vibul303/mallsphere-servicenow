@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Lost &amp; Found" section_id="8bc2bd35472a0b105fdbe481e36d4366" sys_domain="global" table="x_1971559_mallsp_0_lost_found" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>found_location</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 15:18:23</sys_created_on>
+            <sys_id>6a8b7db5476a0b105fdbe481e36d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost &amp; Found" display_value="Lost &amp; Found" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">8bc2bd35472a0b105fdbe481e36d4366</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 15:18:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>storage_location</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 15:18:23</sys_created_on>
+            <sys_id>e68b7db5476a0b105fdbe481e36d4333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost &amp; Found" display_value="Lost &amp; Found" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">8bc2bd35472a0b105fdbe481e36d4366</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 15:18:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reported_by</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 15:18:23</sys_created_on>
+            <sys_id>668b7db5476a0b105fdbe481e36d4334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost &amp; Found" display_value="Lost &amp; Found" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">8bc2bd35472a0b105fdbe481e36d4366</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 15:18:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 15:18:23</sys_created_on>
+            <sys_id>e28b7db5476a0b105fdbe481e36d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost &amp; Found" display_value="Lost &amp; Found" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">8bc2bd35472a0b105fdbe481e36d4366</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 15:18:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>verification_required</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 15:18:23</sys_created_on>
+            <sys_id>628b7db5476a0b105fdbe481e36d4336</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost &amp; Found" display_value="Lost &amp; Found" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">8bc2bd35472a0b105fdbe481e36d4366</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 15:18:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>claimed_by</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 15:18:23</sys_created_on>
+            <sys_id>ee8b7db5476a0b105fdbe481e36d4336</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost &amp; Found" display_value="Lost &amp; Found" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">8bc2bd35472a0b105fdbe481e36d4366</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 15:18:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 15:18:23</sys_created_on>
+            <sys_id>6e8b7db5476a0b105fdbe481e36d4337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lost &amp; Found" display_value="Lost &amp; Found" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">8bc2bd35472a0b105fdbe481e36d4366</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 15:18:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Lost &amp; Found</caption>
+            <header>false</header>
+            <name>x_1971559_mallsp_0_lost_found</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-07 14:40:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8bc2bd35472a0b105fdbe481e36d4366</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1971559_mallsp_0_lost_found</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+            <sys_update_name>sys_ui_section_8bc2bd35472a0b105fdbe481e36d4366</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-07 15:16:30</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</application>
+        <file_path/>
+        <instance_id>5eb0d4a2eba50fd4e483f459bad0cd4d</instance_id>
+        <instance_name>dev410727</instance_name>
+        <name>sys_ui_section_8bc2bd35472a0b105fdbe481e36d4366</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Lost &amp; Found" section_id="8bc2bd35472a0b105fdbe481e36d4366" sys_domain="global" table="x_1971559_mallsp_0_lost_found" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>found_location</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-07 15:18:23</sys_created_on><sys_id>6a8b7db5476a0b105fdbe481e36d4332</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lost &amp; Found" display_value="Lost &amp; Found" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">8bc2bd35472a0b105fdbe481e36d4366</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-07 15:18:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>storage_location</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-07 15:18:23</sys_created_on><sys_id>e68b7db5476a0b105fdbe481e36d4333</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lost &amp; Found" display_value="Lost &amp; Found" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">8bc2bd35472a0b105fdbe481e36d4366</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-07 15:18:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>reported_by</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-07 15:18:23</sys_created_on><sys_id>668b7db5476a0b105fdbe481e36d4334</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lost &amp; Found" display_value="Lost &amp; Found" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">8bc2bd35472a0b105fdbe481e36d4366</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-07 15:18:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>status</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-07 15:18:23</sys_created_on><sys_id>e28b7db5476a0b105fdbe481e36d4335</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lost &amp; Found" display_value="Lost &amp; Found" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">8bc2bd35472a0b105fdbe481e36d4366</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-07 15:18:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>verification_required</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-07 15:18:23</sys_created_on><sys_id>628b7db5476a0b105fdbe481e36d4336</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lost &amp; Found" display_value="Lost &amp; Found" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">8bc2bd35472a0b105fdbe481e36d4366</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-07 15:18:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>claimed_by</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-07 15:18:23</sys_created_on><sys_id>ee8b7db5476a0b105fdbe481e36d4336</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lost &amp; Found" display_value="Lost &amp; Found" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">8bc2bd35472a0b105fdbe481e36d4366</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-07 15:18:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>notes</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-07 15:18:23</sys_created_on><sys_id>6e8b7db5476a0b105fdbe481e36d4337</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lost &amp; Found" display_value="Lost &amp; Found" name="x_1971559_mallsp_0_lost_found" sys_domain="global" view="Default view">8bc2bd35472a0b105fdbe481e36d4366</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-07 15:18:23</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Lost &amp; Found</caption><header>false</header><name>x_1971559_mallsp_0_lost_found</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-07 14:40:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8bc2bd35472a0b105fdbe481e36d4366</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1971559_mallsp_0_lost_found</sys_name><sys_overrides/><sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package><sys_policy/><sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope><sys_update_name>sys_ui_section_8bc2bd35472a0b105fdbe481e36d4366</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-07 15:16:30</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>991727711</payload_hash>
+        <record_name>Lost &amp; Found</record_name>
+        <reverted_from/>
+        <source>10694d8d47e283105fdbe481e36d4375</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-07 15:18:23</sys_created_on>
+        <sys_id>e28b7db5476a0b105fdbe481e36d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fdccdd0460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-07 15:18:23</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>e28b7db5126a0b104a63982fd7945e3b</update_guid>
+        <update_guid_history>e28b7db5126a0b104a63982fd7945e3b:991727711,6a4b35b5eb6a0b10e9fadbf7f1834a07:2081439504,571b7d753c6a0b10bf95dcf2d7ecad48:1135671984,cb1b7d75316a0b10e1f7cb55feeb7b01:1860967195,8faabd35e86a0b10e83d012f6e4616e0:-217534544,19d471796b2a0b102d3edb120f9c5194:1022752432,611479f55b2a0b10e50c8bf9121097dc:1711711210,151339750e2a0b10555c188efe9d67c5:269253720,57c2bd355b2a0b105513bc0ca48d2bb8:-404638829,cfc2bd355b2a0b10a9a3d682ce24226a:615562903</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-07 15:20:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>19df2d4ebfc24f1099837ed111000e40</sys_id>
+        <sys_metadata>8bc2bd35472a0b105fdbe481e36d4366</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lost &amp; Found</sys_name>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_parent display_value="Lost &amp; Found">1181bdf547e60b105fdbe481e36d43f1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_scope_delete display_value="">0ffb337f2f254b1eb0c741d30e5b9e91</sys_scope_delete>
+        <sys_update_name>sys_ui_section_8bc2bd35472a0b105fdbe481e36d4366</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_8bc2bd35472a0b105fdbe481e36d4366">e28b7db5476a0b105fdbe481e36d433c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-07 15:20:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

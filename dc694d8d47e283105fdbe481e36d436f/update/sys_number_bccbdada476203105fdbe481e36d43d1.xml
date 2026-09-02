@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1971559_mallsp_0_store">x_1971559_mallsp_0_store</category>
+        <maximum_digits>6</maximum_digits>
+        <number>1</number>
+        <prefix>STR</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-09 06:58:42</sys_created_on>
+        <sys_id>bccbdada476203105fdbe481e36d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>STR</sys_name>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name>sys_number_bccbdada476203105fdbe481e36d43d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-09 06:58:42</sys_updated_on>
+    </sys_number>
+</record_update>

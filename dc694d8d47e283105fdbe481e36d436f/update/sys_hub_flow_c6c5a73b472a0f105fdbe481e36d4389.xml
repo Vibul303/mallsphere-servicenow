@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=763000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>mallsphere__vendor_approval</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Vendor Record","reference":"x_1971559_mallsp_0_vendor","reference_display":"Vendor","type":"reference","base_type":"reference","usedInstances":{"3b64b93c-9219-4fe0-9f1f-6a02852e0cda":["record"]},"attributes":{}}]</label_cache>
+        <master_snapshot>24b8e3bf472a0f105fdbe481e36d436d</master_snapshot>
+        <master_snapshot_digest/>
+        <name>MallSphere - Vendor Approval</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>a8b8e3bf472a0f105fdbe481e36d43c9</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:10:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c6c5a73b472a0f105fdbe481e36d4389</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>MallSphere - Vendor Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name>sys_hub_flow_c6c5a73b472a0f105fdbe481e36d4389</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:14</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>78b827bf472a0f105fdbe481e36d431a</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c6c5a73b472a0f105fdbe481e36d4389"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c6c5a73b472a0f105fdbe481e36d4389"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1971559_mallsp_0_vendor">vendor_status=Active<item display_value="Active" endquery="false" field="vendor_status" goto="false" newquery="false" operator="=" or="false" value="Active"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:23:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a8b8e3bf472a0f105fdbe481e36d43c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:09</sys_updated_on>
+        <table>x_1971559_mallsp_0_vendor</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>c6c5a73b472a0f105fdbe481e36d4389</identifier>
+        <identifier_type>flow</identifier_type>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:23:09</sys_created_on>
+        <sys_id>ecb8e3bf472a0f105fdbe481e36d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:09</sys_updated_on>
+        <trigger display_value="">a8b8e3bf472a0f105fdbe481e36d43c9</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c6c5a73b472a0f105fdbe481e36d4389^sys_idNOT INecb8e3bf472a0f105fdbe481e36d43ca"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=c6c5a73b472a0f105fdbe481e36d4389"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c6c5a73b472a0f105fdbe481e36d4389^sys_idNOT IN8ac5a73b472a0f105fdbe481e36d438a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c6c5a73b472a0f105fdbe481e36d4389</id>
+        <name>MallSphere - Vendor Approval</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:10:25</sys_created_on>
+        <sys_id>8ac5a73b472a0f105fdbe481e36d438a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:10:25</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8ac5a73b472a0f105fdbe481e36d438a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=c6c5a73b472a0f105fdbe481e36d4389^sys_idNOT IN12e5eb3b472a0f105fdbe481e36d431c,6ee5eb3b472a0f105fdbe481e36d435a,eae5eb3b472a0f105fdbe481e36d434f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="MallSphere - Vendor Approval">c6c5a73b472a0f105fdbe481e36d4389</model>
+        <model_id>c6c5a73b472a0f105fdbe481e36d4389</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_c6c5a73b472a0f105fdbe481e36d4389</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:10:59</sys_created_on>
+        <sys_id>12e5eb3b472a0f105fdbe481e36d431c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=12e5eb3b472a0f105fdbe481e36d431c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="MallSphere - Vendor Approval">c6c5a73b472a0f105fdbe481e36d4389</model>
+        <model_id>c6c5a73b472a0f105fdbe481e36d4389</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_c6c5a73b472a0f105fdbe481e36d4389</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:11:00</sys_created_on>
+        <sys_id>6ee5eb3b472a0f105fdbe481e36d435a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:11:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6ee5eb3b472a0f105fdbe481e36d435a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="MallSphere - Vendor Approval">c6c5a73b472a0f105fdbe481e36d4389</model>
+        <model_id>c6c5a73b472a0f105fdbe481e36d4389</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_c6c5a73b472a0f105fdbe481e36d4389</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:10:59</sys_created_on>
+        <sys_id>eae5eb3b472a0f105fdbe481e36d434f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=eae5eb3b472a0f105fdbe481e36d434f"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=c6c5a73b472a0f105fdbe481e36d4389"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c6c5a73b472a0f105fdbe481e36d4389"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=c6c5a73b472a0f105fdbe481e36d4389^sys_idNOT IN02e52737472a0f105fdbe481e36d43ba"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="MallSphere - Vendor Approval">c6c5a73b472a0f105fdbe481e36d4389</flow>
+        <generation_source/>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:10:58</sys_created_on>
+        <sys_id>02e52737472a0f105fdbe481e36d43ba</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:08</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=c6c5a73b472a0f105fdbe481e36d4389^sys_idNOT IN5df66f7b472a0f105fdbe481e36d43c1"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="MallSphere - Vendor Approval">c6c5a73b472a0f105fdbe481e36d4389</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:15:34</sys_created_on>
+        <sys_id>5df66f7b472a0f105fdbe481e36d43c1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:28:22</sys_updated_on>
+        <ui_id>3b64b93c-9219-4fe0-9f1f-6a02852e0cda</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YXU/jOBSG/4qV625JG5pSrpalQjsSMNK0y2o1jCLHcVovTpx1HKCD+O97HDsfbaG0Q0cLWu7I8dd7jt/Hrvn64LDIOXYOoyPXD+NDPHS9vue6R/3RKPRGsXs0HLk9EjkdJ8UJhZ6SEiH19y3mhQ48PJxKihWNkJDojyzSfwa9LimkpKl6fISuEcszjhdXdgREyJzxCNqd46/fOk6GJUyuqHSOH1aatlXHcUg5dJ1iOaMKfalUrqpWi0x/R4IUCcgLWBU8txOMbQv6NIYWGKRVuR2H3iuaRhTkxJjntOMkOIVchVzUEShD9DnlTWDOUgVTnuS5IAzqkiM1p4gmmHF0x9QcYWSEdR09333OvoM4r6+niinUgGitLCUsAkVOKxzYkkLzp6Y5HmOFJ0oWRBWyrrRghOammhGNccHVaTtmOnzOFBOpGaJwyKvRghdJemmK6NQTtHayyEEMzXRtdLKwOCQeT+bi7ksl9oylZRVtVbggmNdf8YRiSeZnjHK91WmRhNC342ClJAsLpWWCKTj0atYJSql6LehJOS23MsFZxtJZkElxy8oFQX7SnXH46MZc3MH4nM3SLiY61y7sHu6eQXxchq+wZDrxC5gGBj92nHyRn3Kc5036UP/gn0KrN8VYlqNHB6Xh9GAiWaZOYKlbapN97FjaeqNNfo4OG9+25myIuw96o2FvMBhBypznWeAGtyBEyHXUrqr4bsBtIbABTpvlacEWtrXYeXssujQNFrXejqgZw1nSpoCXMieAAQspK6+m68hdpusZqt4GTTUjW+O0jM3PQQNMkgfG3za3cvEfQOYlUFzfD0M/HAy9xocjEkfDMPbxkHiN7+7geJUJljdBeby2aOmtU2EPjt2Y2EJLxQQcybyIKPqzErVJp4UkFALOuHSVEFB6cFZWtyak/6rLyFgTKYFgM/kCrqBakg42F5SaY4VYjnLYrS6aCsRsVq0RHbQQBUqKXEE3BS1L8C3daodvlztrBxsdP+mVdwHm3gCsglrqqmMh9BSyjzW0g82XB25gwPNAiRaqo/7Q73shJX3P/zW5IRTS7rJ0HeDnO+7G9BZS63tOrOu26Oaws+lshdxJFbTUepupNdfYGrSta8t9uwC9Fz60cM4SVhrCkP1TkDH+eBGUaKP7qLtkOEJaoOzhTbXF4pX1T0/Xlexi/cMfu7A+vP9evN88bDY+1Km/5KNw35beYvXK0r+teDrc2dSDD1P/T0w92GwrsmSkvAj/pkS1jG2e4Ogk0yljji6FYjEjuNyXZx7sz/be8efNy8orICa17qdy2QUM/+OHzn/Oxf4hwButFPeXT1MRLVoEXBeu65EMac2/KJYuEkKlECqEwtyUjdG1c2260THFEhkKOmbgQWZartOdJvpLFBKZ/4tV/wyC1ywus4O3LLrAnE+yOexY91XrTOc4vdHvYCs3lCbezA9LpXhW7vPySuv425W3LsW+Un0uFXSwSzK7nU5bWKq+ro2h1hxmz6W5SvjKqfT79OK8OZOGr7ys/cHA8z9OpVff1tld1I+kyDKb255v7G//Av0GlnTPGgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5df66f7b472a0f105fdbe481e36d43c1"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=c6c5a73b472a0f105fdbe481e36d4389"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=c6c5a73b472a0f105fdbe481e36d4389"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c6c5a73b472a0f105fdbe481e36d4389"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=c6c5a73b472a0f105fdbe481e36d4389"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c6c5a73b472a0f105fdbe481e36d4389</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:11:00</sys_created_on>
+        <sys_id>2ae5eb3b472a0f105fdbe481e36d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:11:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c6c5a73b472a0f105fdbe481e36d4389</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:10:59</sys_created_on>
+        <sys_id>a6e5eb3b472a0f105fdbe481e36d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:10:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c6c5a73b472a0f105fdbe481e36d4389</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:10:59</sys_created_on>
+        <sys_id>e6e5eb3b472a0f105fdbe481e36d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:10:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_c6c5a73b472a0f105fdbe481e36d4389"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_c6c5a73b472a0f105fdbe481e36d4389"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>mallsphere__vendor_approval</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Vendor Record","reference":"x_1971559_mallsp_0_vendor","reference_display":"Vendor","type":"reference","base_type":"reference","usedInstances":{"3b64b93c-9219-4fe0-9f1f-6a02852e0cda":["record"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>MallSphere - Vendor Approval</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="MallSphere - Vendor Approval">c6c5a73b472a0f105fdbe481e36d4389</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:23:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>24b8e3bf472a0f105fdbe481e36d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:08</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=24b8e3bf472a0f105fdbe481e36d436d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=24b8e3bf472a0f105fdbe481e36d436d"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=24b8e3bf472a0f105fdbe481e36d436d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=24b8e3bf472a0f105fdbe481e36d436d^sys_idNOT IN60b8e3bf472a0f105fdbe481e36d436e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>24b8e3bf472a0f105fdbe481e36d436d</id>
+        <name>MallSphere - Vendor Approval</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:23:08</sys_created_on>
+        <sys_id>60b8e3bf472a0f105fdbe481e36d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:08</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=60b8e3bf472a0f105fdbe481e36d436e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=24b8e3bf472a0f105fdbe481e36d436d^sys_idNOT INa8b8e3bf472a0f105fdbe481e36d438c,e4b8e3bf472a0f105fdbe481e36d436f,ecb8e3bf472a0f105fdbe481e36d43a4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="MallSphere - Vendor Approval">24b8e3bf472a0f105fdbe481e36d436d</model>
+        <model_id>24b8e3bf472a0f105fdbe481e36d436d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_24b8e3bf472a0f105fdbe481e36d436d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:23:09</sys_created_on>
+        <sys_id>a8b8e3bf472a0f105fdbe481e36d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a8b8e3bf472a0f105fdbe481e36d438c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="MallSphere - Vendor Approval">24b8e3bf472a0f105fdbe481e36d436d</model>
+        <model_id>24b8e3bf472a0f105fdbe481e36d436d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_24b8e3bf472a0f105fdbe481e36d436d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:23:09</sys_created_on>
+        <sys_id>e4b8e3bf472a0f105fdbe481e36d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e4b8e3bf472a0f105fdbe481e36d436f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="MallSphere - Vendor Approval">24b8e3bf472a0f105fdbe481e36d436d</model>
+        <model_id>24b8e3bf472a0f105fdbe481e36d436d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_24b8e3bf472a0f105fdbe481e36d436d</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:23:09</sys_created_on>
+        <sys_id>ecb8e3bf472a0f105fdbe481e36d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ecb8e3bf472a0f105fdbe481e36d43a4"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=24b8e3bf472a0f105fdbe481e36d436d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=24b8e3bf472a0f105fdbe481e36d436d"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=24b8e3bf472a0f105fdbe481e36d436d^sys_idNOT IN60b8e3bf472a0f105fdbe481e36d43bb"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="MallSphere - Vendor Approval">24b8e3bf472a0f105fdbe481e36d436d</flow>
+        <generation_source/>
+        <name>Created or Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:23:09</sys_created_on>
+        <sys_id>60b8e3bf472a0f105fdbe481e36d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:09</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=24b8e3bf472a0f105fdbe481e36d436d^sys_idNOT IN6cb8e3bf472a0f105fdbe481e36d43b8"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="MallSphere - Vendor Approval">24b8e3bf472a0f105fdbe481e36d436d</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:23:09</sys_created_on>
+        <sys_id>6cb8e3bf472a0f105fdbe481e36d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:09</sys_updated_on>
+        <ui_id>3b64b93c-9219-4fe0-9f1f-6a02852e0cda</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YXU/jOBSG/4qV625JG5pSrpalQjsSMNK0y2o1jCLHcVovTpx1HKCD+O97HDsfbaG0Q0cLWu7I8dd7jt/Hrvn64LDIOXYOoyPXD+NDPHS9vue6R/3RKPRGsXs0HLk9EjkdJ8UJhZ6SEiH19y3mhQ48PJxKihWNkJDojyzSfwa9LimkpKl6fISuEcszjhdXdgREyJzxCNqd46/fOk6GJUyuqHSOH1aatlXHcUg5dJ1iOaMKfalUrqpWi0x/R4IUCcgLWBU8txOMbQv6NIYWGKRVuR2H3iuaRhTkxJjntOMkOIVchVzUEShD9DnlTWDOUgVTnuS5IAzqkiM1p4gmmHF0x9QcYWSEdR09333OvoM4r6+niinUgGitLCUsAkVOKxzYkkLzp6Y5HmOFJ0oWRBWyrrRghOammhGNccHVaTtmOnzOFBOpGaJwyKvRghdJemmK6NQTtHayyEEMzXRtdLKwOCQeT+bi7ksl9oylZRVtVbggmNdf8YRiSeZnjHK91WmRhNC342ClJAsLpWWCKTj0atYJSql6LehJOS23MsFZxtJZkElxy8oFQX7SnXH46MZc3MH4nM3SLiY61y7sHu6eQXxchq+wZDrxC5gGBj92nHyRn3Kc5036UP/gn0KrN8VYlqNHB6Xh9GAiWaZOYKlbapN97FjaeqNNfo4OG9+25myIuw96o2FvMBhBypznWeAGtyBEyHXUrqr4bsBtIbABTpvlacEWtrXYeXssujQNFrXejqgZw1nSpoCXMieAAQspK6+m68hdpusZqt4GTTUjW+O0jM3PQQNMkgfG3za3cvEfQOYlUFzfD0M/HAy9xocjEkfDMPbxkHiN7+7geJUJljdBeby2aOmtU2EPjt2Y2EJLxQQcybyIKPqzErVJp4UkFALOuHSVEFB6cFZWtyak/6rLyFgTKYFgM/kCrqBakg42F5SaY4VYjnLYrS6aCsRsVq0RHbQQBUqKXEE3BS1L8C3daodvlztrBxsdP+mVdwHm3gCsglrqqmMh9BSyjzW0g82XB25gwPNAiRaqo/7Q73shJX3P/zW5IRTS7rJ0HeDnO+7G9BZS63tOrOu26Oaws+lshdxJFbTUepupNdfYGrSta8t9uwC9Fz60cM4SVhrCkP1TkDH+eBGUaKP7qLtkOEJaoOzhTbXF4pX1T0/Xlexi/cMfu7A+vP9evN88bDY+1Km/5KNw35beYvXK0r+teDrc2dSDD1P/T0w92GwrsmSkvAj/pkS1jG2e4Ogk0yljji6FYjEjuNyXZx7sz/be8efNy8orICa17qdy2QUM/+OHzn/Oxf4hwButFPeXT1MRLVoEXBeu65EMac2/KJYuEkKlECqEwtyUjdG1c2260THFEhkKOmbgQWZartOdJvpLFBKZ/4tV/wyC1ywus4O3LLrAnE+yOexY91XrTOc4vdHvYCs3lCbezA9LpXhW7vPySuv425W3LsW+Un0uFXSwSzK7nU5bWKq+ro2h1hxmz6W5SvjKqfT79OK8OZOGr7ys/cHA8z9OpVff1tld1I+kyDKb255v7G//Av0GlnTPGgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6cb8e3bf472a0f105fdbe481e36d43b8"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=24b8e3bf472a0f105fdbe481e36d436d"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=24b8e3bf472a0f105fdbe481e36d436d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=24b8e3bf472a0f105fdbe481e36d436d"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=24b8e3bf472a0f105fdbe481e36d436d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_24b8e3bf472a0f105fdbe481e36d436d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:23:09</sys_created_on>
+        <sys_id>20b8e3bf472a0f105fdbe481e36d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_24b8e3bf472a0f105fdbe481e36d436d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:23:09</sys_created_on>
+        <sys_id>24b8e3bf472a0f105fdbe481e36d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_24b8e3bf472a0f105fdbe481e36d436d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:23:09</sys_created_on>
+        <sys_id>68b8e3bf472a0f105fdbe481e36d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_24b8e3bf472a0f105fdbe481e36d436d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_24b8e3bf472a0f105fdbe481e36d436d"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>c6c5a73b472a0f105fdbe481e36d4389</sys_id>
+        <latest_snapshot>24b8e3bf472a0f105fdbe481e36d436d</latest_snapshot>
+        <compiler_build>glide-australia-02-11-2026__patch3-05-25-2026_06-12-2026_1106.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=c6c5a73b472a0f105fdbe481e36d4389^sys_idNOT INecb8e3bf472a0f105fdbe481e36d43cb"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_trigger_plan","id":"ecb8e3bf472a0f105fdbe481e36d43cb","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
+        <plan_id>c6c5a73b472a0f105fdbe481e36d4389</plan_id>
+        <snapshot>05e9af33476a0f105fdbe481e36d43df</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 04:23:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ecb8e3bf472a0f105fdbe481e36d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 04:23:09</sys_updated_on>
+        <trigger display_value="">a8b8e3bf472a0f105fdbe481e36d43c9</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=c6c5a73b472a0f105fdbe481e36d4389"/>
+</record_update>

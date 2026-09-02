@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=154300000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>mallsphere__lease_expiry_reminder</internal_name>
+        <label_cache>[{"name":"6d0e1c95-3795-4da0-9559-3657f682b544.Records","label":"1 - Look Up Records➛Lease Records","reference":"x_1971559_mallsp_0_lease","reference_display":"Lease","type":"records","base_type":"records","usedInstances":{"fcc1b01d-94ba-4cef-9ed7-ae4cbe17bb56":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fcc1b01d-94ba-4cef-9ed7-ae4cbe17bb56.item","label":"2 - For Each➛Lease Record","reference":"x_1971559_mallsp_0_lease","reference_display":"Lease","type":"reference","base_type":"reference","usedInstances":{"753269ff-ebac-4495-b573-34d504dd03f4":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <master_snapshot>901363b3472a0f105fdbe481e36d43a3</master_snapshot>
+        <master_snapshot_digest/>
+        <name>MallSphere - Lease Expiry Reminder</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>141363b3472a0f105fdbe481e36d43e1</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 09:06:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c176121f47eec7105fdbe481e36d439c</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>MallSphere - Lease Expiry Reminder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name>sys_hub_flow_c176121f47eec7105fdbe481e36d439c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 03:58:34</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>7413a3b3472a0f105fdbe481e36d4367</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c176121f47eec7105fdbe481e36d439c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c176121f47eec7105fdbe481e36d439c"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <published_version/>
+        <run_period/>
+        <run_start>2026-08-14 03:58:34</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 03:58:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>141363b3472a0f105fdbe481e36d43e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 03:58:34</sys_updated_on>
+        <time>1970-01-02 00:00:00</time>
+        <timer_type>11</timer_type>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:141363b3472a0f105fdbe481e36d43e1^sys_idNOT INdc1363b3472a0f105fdbe481e36d43e1"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:141363b3472a0f105fdbe481e36d43e1</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <repeat_every/>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month/>
+        <run_period/>
+        <run_start>2026-08-14 03:58:34</run_start>
+        <run_time>1970-01-02 00:00:00</run_time>
+        <run_type>daily</run_type>
+        <run_weekinmonth/>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('141363b3472a0f105fdbe481e36d43e1');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 03:58:34</sys_created_on>
+        <sys_id>dc1363b3472a0f105fdbe481e36d43e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 03:58:34</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">141363b3472a0f105fdbe481e36d43e1</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c176121f47eec7105fdbe481e36d439c"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=c176121f47eec7105fdbe481e36d439c"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c176121f47eec7105fdbe481e36d439c^sys_idNOT IN8576121f47eec7105fdbe481e36d439d"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c176121f47eec7105fdbe481e36d439c</id>
+        <name>MallSphere - Lease Expiry Reminder</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 09:06:52</sys_created_on>
+        <sys_id>8576121f47eec7105fdbe481e36d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-12 09:06:52</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8576121f47eec7105fdbe481e36d439d"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=c176121f47eec7105fdbe481e36d439c"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=c176121f47eec7105fdbe481e36d439c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c176121f47eec7105fdbe481e36d439c"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=c176121f47eec7105fdbe481e36d439c^sys_idNOT IN0ab0661347620b105fdbe481e36d4381"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="MallSphere - Lease Expiry Reminder">c176121f47eec7105fdbe481e36d439c</flow>
+        <generation_source/>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 09:51:43</sys_created_on>
+        <sys_id>0ab0661347620b105fdbe481e36d4381</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 03:58:32</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/31Sy07DMBD8FeRziZyWZ25ICIkDIEHFpaqijb1pLfmF4xRC1X9nnaQVFETki2d3Z2fGWWyZhgo1K9hcGWQTpmzEYEHPO4+ErrSSWMahZsBKiC50rIihxQmrgzNzNF5DpOYadEOgCxIDK3LOJ2wDusWXrrmXxEUMFkxiHfn6Kl3z60t+ynM6J/lFwTkdqkrVEHH3+m+TWCstA1pWLJYT5iHQgpjWb49KkfyUx16TqhnIM5SCi9mUPs6nV2d5dTGr8qmcAeI59R2N/TQR/wjqewT4EdFKlId8fqUYEOST1d2hY02PMORl4KNRnzhSBayRDAkciodrOUY1wGLtlMAnH5WzAxKh0uOMcLo19nFwkELGGlod9yET0jbEhz5pTipGSfXL2r0/7xfeKdsbHIvaCdCHG8QYVNVGbNIroEZDRKUB75VdlT64jeqHSYvJ+tiyWrt3Wtqolc1AJOEZRQTZHeG3PfwKQSUXD0RDw7veffnWpr2Dj1FxOZimhkYE5eMN0W32P+du+QXEDjIa8QIAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=c176121f47eec7105fdbe481e36d439c^sys_idNOT IN2f216a1f47aac7105fdbe481e36d43c3,eb622f33472a0f105fdbe481e36d435f"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="MallSphere - Lease Expiry Reminder">c176121f47eec7105fdbe481e36d439c</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 09:53:44</sys_created_on>
+        <sys_id>2f216a1f47aac7105fdbe481e36d43c3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 23:00:03</sys_updated_on>
+        <ui_id>6d0e1c95-3795-4da0-9559-3657f682b544</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWXWvbMBT9K8FPG4QgNx9t87SRUhi0DaylL6UI2ZYTbYrlSXI+Gvrfd/VhJ0vcLNkS6NiT8dWV7tG550h6WgYsCfoBSjsIkbB7cY5Qu41Qr9eOSRhF7V4coah7GTSDjEwoZCohNdaLnEJoSnhRxYiKIZQwlXOyePQjpKFF4wXi8ZjxRNIs6D89N4OcSFhNUxn0lxtD+8LhJKIcUu+hduPB4amBaD99qCFYXP7f+KmDMihkYqC0mwGda5olFDCkhCvaDCYkS4gWclFFJCXJMOOrwJhlGlYLTPJcsReo1z4zeSmFXcXUjVW/2FPkwukV0eReyyLWhfSpDqwCPpbVNisiazj38NFrc5X/YvLJZn5C1yeEr8B3QlNScD34s5rhoTXPTE23wWGumYCuB23TFxLxcvuCF5PszvUyqBA+1ojNjVy9oblCAdk0Nw01HfLtSu/HYva17MY1yywuP8hFTHj1R7SWLCq04WUZpAlOGeUJZhlnmakEbTPyoZxOoAKekDxn2QjnUkyZXRX2MmmNOPy0Ui5mhgs2ylokNjtvgbBI6xriVzb8SCQzLNzCMjC5aQqOYaqvh1UsWa7xjCUjqlfVy6xE6Bnh3+vGveJw2Si7veC1GaiFGnCi1IpskCn+URgOHPWePWwbZadYFJ9hB1PqiTIasLaNz3fatrthUdfoNb1snx8Hnxx7QChZGBpFNqLFW6j80eF6bjN+PT6uzUDjzg2U8j7aEXKBjnOE1Fl824IHOXDbWkZqf+GsExqozrGHC99x8xv1d3ZeWr1wpTNoMpZUAaVqTf0hQmjbAWHThQ+zwR5YShvcknnjawWmFqF3AoiUjiyx6zb4UkW9BzpH80Dn/XqgbFbtDVT27MgX0Glscvxr4GL36w2tZBaLLGEG47oPOCXAGxTEAJwO7x7EREgpZp++kSlxdfsj1YroiGUZ8DBMy4wPHzdyYJH10W13nbTWYZbdg7XSsoN12uqoLF+9m7GbugXKp9wRbYver3H/kcvrRHfUbpF1opWe3HIrV85xeHkedruXsFHOVY4RtubZ9tSNDx9T/hZZKf8HD20DqRe9/a17r9lpG+819H++197nTQSAGAeFYNdCJQppqZzimBfKDkiSKbfWEe+t558p5cR7BhEAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2f216a1f47aac7105fdbe481e36d43c3"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="MallSphere - Lease Expiry Reminder">c176121f47eec7105fdbe481e36d439c</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>fcc1b01d-94ba-4cef-9ed7-ae4cbe17bb56</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 03:55:46</sys_created_on>
+        <sys_id>eb622f33472a0f105fdbe481e36d435f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 23:00:03</sys_updated_on>
+        <ui_id>753269ff-ebac-4495-b573-34d504dd03f4</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YXW/bNhSG/wqha9uRv+Q4V+viBSuQtENsdBdNIVAUZXGhSI2i4nhB/vsOJVqS7cS1GxdLsABBAB1+nJeH70NK/vrgsNA5cwbhqesF0QCP3H6v77qnvfE46I8j93Q0drskdFqOwAmFnooSqczzHea5CTw8RIR0A7cbtseDALcHhEbtMQ1HbUwHJKDdURAMvQ7TNHl8hHEhy1KOl1/scIiQmPFQUeGcff3WclKsIJOmyjl72GjaVyrHAeXQdYbVnGp0vZK8uQS9TM1zKEmeUKF9tgpe2gkmtgV9nEALDDKq3JZD7zUVIQU5EeYZbTkJFiHWUi2riKI4/Cx4HYiZ0DDlhyyThGFNM6RjimiCGUcLpmOEUSms45j57jP2D4jr98xUEYUaEKOVCcJCUOQ0wr4tKTR/rJujCdZ4qlVOdK6qSktGaFZWM6QRzrk+b8bKDp9TzaQoh2gc8NVoyfNEfCqL6FQTNHYyz0AMTU1tzGIhOSw8msZycb0Se8FEUUVbFS4J5tVTNKVYkfiCUW62WuRJAH1bDtZasSDXRiaYgkOvOo9fSDW5oCfltNjKBKcpE3M/VfKOFQlBftKZc3joRFwuYHzG5qKDiVlrB3YPdy4gPinCX7BiZuFXMA0Mfmw52TI75zjL6uVD/f2/c6O+LMa6HDPaLwxnBhPFUv0BUt1Ru9jHlkWvO97l53BQ+7YxZ43fvd8dj7rD4RiWzHmW+q4P5cnoNmmXNnwYbnvIq3EzVnlarkVtK3bZHIs+lQ0WtO6BoJV2s5zNAC5d8l9ihbSVV7F16q6z9QxTr4OlipC9YVqH5ueAASbJ/NLddm1F8h8A5nuYuJ4XBF4wHPVrH45JFI6CyMMj0q99t4DDVSVY3frF4dpgpbsNhT02DmNiDy0rJuBA5nlI0Z8rUbt0WkgCKQFhsUkIKD25KKpbEdJ70VVUWhNpiWAz+RIuoEqSCdbXk46xRixDGexWB80kYnZVjREttJQ5SvJMQzcNLWvwrd1pg9fLnbWDjU6e9MqbAPP4AA53XwS4NjaOfS0b2I17I6/XDyjp9b1fkltCYQkdJrZhfL7jYXzuIbW6s+S2bothBrsk5hsUTldBS2B/N4HllbQFYOMKcl8vDG/F60Y4ZwkrDFFSenz7hzs9Rd01GxHSsP8Rvnn2SL4y9Pn5tpJDDD34sSvl3dFvztHdnR/S1FvzUXBsS++RfWXpXzc8HRxs6uG7qf8nph7uthVZM1KWB39RohvGLr6R0W/3KVNLdE2TsmZPf0o/0e3A15Tva10hMK2UPqX+EBS89xeW/5yE49se77RS1Fs/P2W4bHj+JnfdPkmR0dzWTCwTQpWUOoDC3BaN4Y1zU3ajE4oVmlGBhW6VA0/SsuVGHDTRLIYPSvgzv3qW/JSfmfAVqVDxC5ZppQYxKDzKJFT1RQn/KCdV9I7RRTMNmB8RKTRsXfHNa35Hg38Cz4u9R5FUMErQBeYvUzCLsbg1mW3lAlXGryDhNI3BnOiqSrueafsIspn33pWjV/3nV/W5qqGTQ+p22Jm8B0jVa0mJ0RZX9jSOdcI3zuLfZ1eX9Uk8euFLiTcc9r33s/jFbyXpIuyFSqapXduR30y+/Qv5/ufeZBsAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=eb622f33472a0f105fdbe481e36d435f"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=c176121f47eec7105fdbe481e36d439c"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=c176121f47eec7105fdbe481e36d439c^sys_idNOT IN28b3e29747620b105fdbe481e36d435c"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e0b3e29747620b105fdbe481e36d435b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="MallSphere - Lease Expiry Reminder">c176121f47eec7105fdbe481e36d439c</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-12 10:04:43</sys_created_on>
+        <sys_id>28b3e29747620b105fdbe481e36d435c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 03:58:32</sys_updated_on>
+        <ui_id>fcc1b01d-94ba-4cef-9ed7-ae4cbe17bb56</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51STW/bMAz9Lzonhj9it86twFCgh61AV/QyFAYt0YkwWdIkOaln+L+Pip1s6HGXOHwkH98TOTEzBDsE/2oevJcHzfY/3jdM6ojR/4lp6JHtmQzYe7ZhJ1BDjKepEilmvC63xR397ASk27os621RlXdddZ+35W6XvCA3Tvh5plYhvVUwvv0/Az9KJRyuIi040hbQsf30KRVGi42CFhUNWhmoXwoKs1p0dZbWvMirIk/T/H6XtVXRZrkoAEVFddfOp9X0pzeI7BS6Gy99ooo83TD8CKgF0qAOlMcN60ELCMaNbB/cQIBDEM9ajbeKo9SB6Fis/fDyN3FnaRoLOyRHHJfkLWzWh1xgfjSS47MN0ugFCdCqtYcbNfT62yI/rgA7GFS4roCQwRMf2qg5qlgldd+P5vxyHfgo9cXfmlSGg7pFEIKT7RDQxzWgwp6Imh6slfrQWGdO8tJMWvrkoChIOmXONDSeWwI8Ck/oiSB5JPzLBX4DJ6OLr0RDzfPFffNriHMXH6viZjFNBZ47acMD0Z1wFTe/x3tdmPxyGAK59DTwNWJP1yuPiZGWLPm/0Nm4n1HqX2z+A0Jb2SYvAwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c176121f47eec7105fdbe481e36d439c"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=c176121f47eec7105fdbe481e36d439c"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_c176121f47eec7105fdbe481e36d439c"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_c176121f47eec7105fdbe481e36d439c"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>mallsphere__lease_expiry_reminder</internal_name>
+        <label_cache>[{"name":"6d0e1c95-3795-4da0-9559-3657f682b544.Records","label":"1 - Look Up Records➛Lease Records","reference":"x_1971559_mallsp_0_lease","reference_display":"Lease","type":"records","base_type":"records","usedInstances":{"fcc1b01d-94ba-4cef-9ed7-ae4cbe17bb56":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fcc1b01d-94ba-4cef-9ed7-ae4cbe17bb56.item","label":"2 - For Each➛Lease Record","reference":"x_1971559_mallsp_0_lease","reference_display":"Lease","type":"reference","base_type":"reference","usedInstances":{"753269ff-ebac-4495-b573-34d504dd03f4":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <master>true</master>
+        <name>MallSphere - Lease Expiry Reminder</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="MallSphere - Lease Expiry Reminder">c176121f47eec7105fdbe481e36d439c</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 03:58:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>901363b3472a0f105fdbe481e36d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 03:58:33</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=901363b3472a0f105fdbe481e36d43a3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=901363b3472a0f105fdbe481e36d43a3"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=901363b3472a0f105fdbe481e36d43a3"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=901363b3472a0f105fdbe481e36d43a3^sys_idNOT IN581363b3472a0f105fdbe481e36d43a4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>901363b3472a0f105fdbe481e36d43a3</id>
+        <name>MallSphere - Lease Expiry Reminder</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 03:58:33</sys_created_on>
+        <sys_id>581363b3472a0f105fdbe481e36d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 03:58:33</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=581363b3472a0f105fdbe481e36d43a4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=901363b3472a0f105fdbe481e36d43a3"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=901363b3472a0f105fdbe481e36d43a3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=901363b3472a0f105fdbe481e36d43a3"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=901363b3472a0f105fdbe481e36d43a3^sys_idNOT INd01363b3472a0f105fdbe481e36d43c2"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="MallSphere - Lease Expiry Reminder">901363b3472a0f105fdbe481e36d43a3</flow>
+        <generation_source/>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 03:58:33</sys_created_on>
+        <sys_id>d01363b3472a0f105fdbe481e36d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 03:58:33</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/31Sy07DMBD8FeRziZyWZ25ICIkDIEHFpaqijb1pLfmF4xRC1X9nnaQVFETki2d3Z2fGWWyZhgo1K9hcGWQTpmzEYEHPO4+ErrSSWMahZsBKiC50rIihxQmrgzNzNF5DpOYadEOgCxIDK3LOJ2wDusWXrrmXxEUMFkxiHfn6Kl3z60t+ynM6J/lFwTkdqkrVEHH3+m+TWCstA1pWLJYT5iHQgpjWb49KkfyUx16TqhnIM5SCi9mUPs6nV2d5dTGr8qmcAeI59R2N/TQR/wjqewT4EdFKlId8fqUYEOST1d2hY02PMORl4KNRnzhSBayRDAkciodrOUY1wGLtlMAnH5WzAxKh0uOMcLo19nFwkELGGlod9yET0jbEhz5pTipGSfXL2r0/7xfeKdsbHIvaCdCHG8QYVNVGbNIroEZDRKUB75VdlT64jeqHSYvJ+tiyWrt3Wtqolc1AJOEZRQTZHeG3PfwKQSUXD0RDw7veffnWpr2Dj1FxOZimhkYE5eMN0W32P+du+QXEDjIa8QIAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=901363b3472a0f105fdbe481e36d43a3^sys_idNOT IN5c1363b3472a0f105fdbe481e36d43be,dc1363b3472a0f105fdbe481e36d43c0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="MallSphere - Lease Expiry Reminder">901363b3472a0f105fdbe481e36d43a3</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 03:58:33</sys_created_on>
+        <sys_id>5c1363b3472a0f105fdbe481e36d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 03:58:33</sys_updated_on>
+        <ui_id>6d0e1c95-3795-4da0-9559-3657f682b544</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWXWvbMBT9K8FPG4QgNx9t87SRUhi0DaylL6UI2ZYTbYrlSXI+Gvrfd/VhJ0vcLNkS6NiT8dWV7tG550h6WgYsCfoBSjsIkbB7cY5Qu41Qr9eOSRhF7V4coah7GTSDjEwoZCohNdaLnEJoSnhRxYiKIZQwlXOyePQjpKFF4wXi8ZjxRNIs6D89N4OcSFhNUxn0lxtD+8LhJKIcUu+hduPB4amBaD99qCFYXP7f+KmDMihkYqC0mwGda5olFDCkhCvaDCYkS4gWclFFJCXJMOOrwJhlGlYLTPJcsReo1z4zeSmFXcXUjVW/2FPkwukV0eReyyLWhfSpDqwCPpbVNisiazj38NFrc5X/YvLJZn5C1yeEr8B3QlNScD34s5rhoTXPTE23wWGumYCuB23TFxLxcvuCF5PszvUyqBA+1ojNjVy9oblCAdk0Nw01HfLtSu/HYva17MY1yywuP8hFTHj1R7SWLCq04WUZpAlOGeUJZhlnmakEbTPyoZxOoAKekDxn2QjnUkyZXRX2MmmNOPy0Ui5mhgs2ylokNjtvgbBI6xriVzb8SCQzLNzCMjC5aQqOYaqvh1UsWa7xjCUjqlfVy6xE6Bnh3+vGveJw2Si7veC1GaiFGnCi1IpskCn+URgOHPWePWwbZadYFJ9hB1PqiTIasLaNz3fatrthUdfoNb1snx8Hnxx7QChZGBpFNqLFW6j80eF6bjN+PT6uzUDjzg2U8j7aEXKBjnOE1Fl824IHOXDbWkZqf+GsExqozrGHC99x8xv1d3ZeWr1wpTNoMpZUAaVqTf0hQmjbAWHThQ+zwR5YShvcknnjawWmFqF3AoiUjiyx6zb4UkW9BzpH80Dn/XqgbFbtDVT27MgX0Glscvxr4GL36w2tZBaLLGEG47oPOCXAGxTEAJwO7x7EREgpZp++kSlxdfsj1YroiGUZ8DBMy4wPHzdyYJH10W13nbTWYZbdg7XSsoN12uqoLF+9m7GbugXKp9wRbYver3H/kcvrRHfUbpF1opWe3HIrV85xeHkedruXsFHOVY4RtubZ9tSNDx9T/hZZKf8HD20DqRe9/a17r9lpG+819H++197nTQSAGAeFYNdCJQppqZzimBfKDkiSKbfWEe+t558p5cR7BhEAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5c1363b3472a0f105fdbe481e36d43be"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="MallSphere - Lease Expiry Reminder">901363b3472a0f105fdbe481e36d43a3</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>fcc1b01d-94ba-4cef-9ed7-ae4cbe17bb56</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 03:58:33</sys_created_on>
+        <sys_id>dc1363b3472a0f105fdbe481e36d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 03:58:33</sys_updated_on>
+        <ui_id>753269ff-ebac-4495-b573-34d504dd03f4</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YXW/bNhSG/wqha9uRv+Q4V+viBSuQtENsdBdNIVAUZXGhSI2i4nhB/vsOJVqS7cS1GxdLsABBAB1+nJeH70NK/vrgsNA5cwbhqesF0QCP3H6v77qnvfE46I8j93Q0drskdFqOwAmFnooSqczzHea5CTw8RIR0A7cbtseDALcHhEbtMQ1HbUwHJKDdURAMvQ7TNHl8hHEhy1KOl1/scIiQmPFQUeGcff3WclKsIJOmyjl72GjaVyrHAeXQdYbVnGp0vZK8uQS9TM1zKEmeUKF9tgpe2gkmtgV9nEALDDKq3JZD7zUVIQU5EeYZbTkJFiHWUi2riKI4/Cx4HYiZ0DDlhyyThGFNM6RjimiCGUcLpmOEUSms45j57jP2D4jr98xUEYUaEKOVCcJCUOQ0wr4tKTR/rJujCdZ4qlVOdK6qSktGaFZWM6QRzrk+b8bKDp9TzaQoh2gc8NVoyfNEfCqL6FQTNHYyz0AMTU1tzGIhOSw8msZycb0Se8FEUUVbFS4J5tVTNKVYkfiCUW62WuRJAH1bDtZasSDXRiaYgkOvOo9fSDW5oCfltNjKBKcpE3M/VfKOFQlBftKZc3joRFwuYHzG5qKDiVlrB3YPdy4gPinCX7BiZuFXMA0Mfmw52TI75zjL6uVD/f2/c6O+LMa6HDPaLwxnBhPFUv0BUt1Ru9jHlkWvO97l53BQ+7YxZ43fvd8dj7rD4RiWzHmW+q4P5cnoNmmXNnwYbnvIq3EzVnlarkVtK3bZHIs+lQ0WtO6BoJV2s5zNAC5d8l9ihbSVV7F16q6z9QxTr4OlipC9YVqH5ueAASbJ/NLddm1F8h8A5nuYuJ4XBF4wHPVrH45JFI6CyMMj0q99t4DDVSVY3frF4dpgpbsNhT02DmNiDy0rJuBA5nlI0Z8rUbt0WkgCKQFhsUkIKD25KKpbEdJ70VVUWhNpiWAz+RIuoEqSCdbXk46xRixDGexWB80kYnZVjREttJQ5SvJMQzcNLWvwrd1pg9fLnbWDjU6e9MqbAPP4AA53XwS4NjaOfS0b2I17I6/XDyjp9b1fkltCYQkdJrZhfL7jYXzuIbW6s+S2bothBrsk5hsUTldBS2B/N4HllbQFYOMKcl8vDG/F60Y4ZwkrDFFSenz7hzs9Rd01GxHSsP8Rvnn2SL4y9Pn5tpJDDD34sSvl3dFvztHdnR/S1FvzUXBsS++RfWXpXzc8HRxs6uG7qf8nph7uthVZM1KWB39RohvGLr6R0W/3KVNLdE2TsmZPf0o/0e3A15Tva10hMK2UPqX+EBS89xeW/5yE49se77RS1Fs/P2W4bHj+JnfdPkmR0dzWTCwTQpWUOoDC3BaN4Y1zU3ajE4oVmlGBhW6VA0/SsuVGHDTRLIYPSvgzv3qW/JSfmfAVqVDxC5ZppQYxKDzKJFT1RQn/KCdV9I7RRTMNmB8RKTRsXfHNa35Hg38Cz4u9R5FUMErQBeYvUzCLsbg1mW3lAlXGryDhNI3BnOiqSrueafsIspn33pWjV/3nV/W5qqGTQ+p22Jm8B0jVa0mJ0RZX9jSOdcI3zuLfZ1eX9Uk8euFLiTcc9r33s/jFbyXpIuyFSqapXduR30y+/Qv5/ufeZBsAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dc1363b3472a0f105fdbe481e36d43c0"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=901363b3472a0f105fdbe481e36d43a3"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=901363b3472a0f105fdbe481e36d43a3^sys_idNOT IN541363b3472a0f105fdbe481e36d43bc"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e0b3e29747620b105fdbe481e36d435b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="MallSphere - Lease Expiry Reminder">901363b3472a0f105fdbe481e36d43a3</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 03:58:33</sys_created_on>
+        <sys_id>541363b3472a0f105fdbe481e36d43bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 03:58:33</sys_updated_on>
+        <ui_id>fcc1b01d-94ba-4cef-9ed7-ae4cbe17bb56</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51TXU/jMBD8L35uo3w0gfQNgZCQ7kAqiJcTqjb2prXOsXO20xKi/vdbN2lAPPLSdMe7szMTZ2Cm823n3Yu5cU7uNFv/eVswqQNG/wemoUG2ZtJj49iCHUB1oR6GQsSY8DJfZlf0sxIQL8s8L5dZkV/VxXVa5atVtEFurHCnE40K6VoF/evPGfheKmFxEtmCJW0eLVsP346koAVJKeoyiUuepUWWxnF6vUqqIquSVGSAoiBCBRUqan2Y3H0z6/s2lHaUMAG/ppnNjNIjiEjjBcN3j1ogra9BOVywBrQAb2zP1t52BFgE8aRVP3fspfZEx0Lvu5MftDGJ49BYIxniOB7O5XbKcYTrO/DwTNTcd3Zq5XsjOboxCoE1dMrffsXGhqfWS6PHEQ+Vukwb1TX6cUyCzQSX10ZI50gEtsFokD75qJ/35ri5qLyX+hzKdKgMBzVX4L2VVeeDnoGhwoaItg20rdS7bWvNQZ6HSUsT7RQVUa3MkZaGKxoBD8IjyhWie8LvzvArWBlc/CYaGj4tmOvdrQLnPr1QiNt/XVAyOps8bMcYwgi3svU3tOCAk9zTW7j1I/ecKZeOJLwE7OHyrYSDnm6Q5F+ho7F/g/hP7PQfbKHF4HUDAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=901363b3472a0f105fdbe481e36d43a3"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=901363b3472a0f105fdbe481e36d43a3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_901363b3472a0f105fdbe481e36d43a3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_901363b3472a0f105fdbe481e36d43a3"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>c176121f47eec7105fdbe481e36d439c</sys_id>
+        <latest_snapshot>901363b3472a0f105fdbe481e36d43a3</latest_snapshot>
+        <compiler_build>glide-australia-02-11-2026__patch3-05-25-2026_06-12-2026_1106.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=c176121f47eec7105fdbe481e36d439c^sys_idNOT INd01363b3472a0f105fdbe481e36d43e5"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_trigger_plan","id":"d01363b3472a0f105fdbe481e36d43e5","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
+        <plan_id>c176121f47eec7105fdbe481e36d439c</plan_id>
+        <snapshot>9558a3c4473a8f105fdbe481e36d4393</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-14 03:58:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d01363b3472a0f105fdbe481e36d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-14 03:58:34</sys_updated_on>
+        <trigger display_value="">141363b3472a0f105fdbe481e36d43e1</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=c176121f47eec7105fdbe481e36d439c"/>
+</record_update>

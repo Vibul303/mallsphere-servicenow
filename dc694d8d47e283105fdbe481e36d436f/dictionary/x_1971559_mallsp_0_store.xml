@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="69b00ecd47aa83105fdbe481e36d4300" label="Store" max_length="40" name="x_1971559_mallsp_0_store" type="collection">
+        <element label="Closing Time" max_length="20" name="closing_time" type="string"/>
+        <element choice="1" label="Status" mandatory="true" max_length="255" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Under Maintenance" sequence="2" value="Under Maintenance"/>
+                <element inactive_on_update="false" label="Reserved" sequence="4" value="Reserved"/>
+                <element inactive_on_update="false" label="Closed" sequence="3" value="Closed"/>
+                <element inactive_on_update="false" label="Occupied" sequence="1" value="Occupied"/>
+                <element inactive_on_update="false" label="Available" sequence="0" value="Available"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Monthly Rent" max_length="20" name="monthly_rent" type="decimal"/>
+        <element choice="1" label="Floor" mandatory="true" max_length="255" name="floor" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Basement" sequence="5" value="Basement"/>
+                <element inactive_on_update="false" label="Ground Floor" sequence="0" value="Ground Floor"/>
+                <element inactive_on_update="false" label="Third Floor" sequence="3" value="Third Floor"/>
+                <element inactive_on_update="false" label="First Floor" sequence="1" value="First Floor"/>
+                <element inactive_on_update="false" label="Second Floor" sequence="2" value="Second Floor"/>
+                <element inactive_on_update="false" label="Food Court" sequence="4" value="Food Court"/>
+            </choice>
+        </element>
+        <element label="Area (Sq.ft)" mandatory="true" max_length="20" name="area_sq_ft" type="decimal"/>
+        <element label="Shop Number" mandatory="true" max_length="20" name="shop_number" type="string"/>
+        <element label="Store Name" mandatory="true" max_length="150" name="store_name" type="string"/>
+        <element label="Opening Time" max_length="20" name="opening_time" type="string"/>
+        <element choice="1" label="Category" mandatory="true" max_length="255" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Jewellery" sequence="2" value="Jewellery"/>
+                <element inactive_on_update="false" label="Accessories" sequence="10" value="Accessories"/>
+                <element inactive_on_update="false" label="Sports" sequence="8" value="Sports"/>
+                <element inactive_on_update="false" label="Entertainment" sequence="6" value="Entertainment"/>
+                <element inactive_on_update="false" label="Food Court" sequence="4" value="Food Court"/>
+                <element inactive_on_update="false" label="Electronics" sequence="1" value="Electronics"/>
+                <element inactive_on_update="false" label="Fashion" sequence="0" value="Fashion"/>
+                <element inactive_on_update="false" label="Hypermarket" sequence="5" value="Hypermarket"/>
+                <element inactive_on_update="false" label="Restaurant" sequence="3" value="Restaurant"/>
+                <element inactive_on_update="false" label="Other" sequence="11" value="Other"/>
+                <element inactive_on_update="false" label="Beauty" sequence="9" value="Beauty"/>
+                <element inactive_on_update="false" label="Books" sequence="7" value="Books"/>
+            </choice>
+        </element>
+        <element label="Tenant" mandatory="true" max_length="32" name="tenant" reference="x_1971559_mallsp_0_tenant" type="reference"/>
+        <element label="Store Number" mandatory="true" max_length="30" name="store_number" type="string"/>
+        <element label="Notes" max_length="8000" name="notes" type="html"/>
+        <index name="index">
+            <element name="tenant"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="MallSphere Portal">a3f3559b47be87905fdbe481e36d4343</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
+        <event_mappings>[]</event_mappings>
+        <macroponent display_value="Vendor Management default">91d4d46747b60b905fdbe481e36d43ac</macroponent>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "TRANSLATION_LITERAL",
+        "value": {
+            "code": null,
+            "comment": "",
+            "message": "Vendor Management"
+        }
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config>
+        <name>Vendor Management default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">1e3d29d9ff9c321033b2ffffffffffa2</parent_macroponent>
+        <required_translations>[ {
+  "message" : "Vendor Management",
+  "code" : "",
+  "comment" : ""
+} ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Vendor Management">81d4d06747b60b905fdbe481e36d4361</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-25 04:34:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d5d4d46747b60b905fdbe481e36d43bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Vendor Management default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MallSphere" source="x_1971559_mallsp_0">dc694d8d47e283105fdbe481e36d436f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
+        <sys_update_name>sys_ux_screen_d5d4d46747b60b905fdbe481e36d43bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-25 04:35:51</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=d5d4d46747b60b905fdbe481e36d43bf"/>
+</record_update>
