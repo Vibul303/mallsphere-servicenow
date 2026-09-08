@@ -19,7 +19,7 @@
         <element label="Complaint Number" mandatory="true" max_length="30" name="complaint_number" type="string"/>
         <element label="Complaint Description" mandatory="true" max_length="8000" name="complaint_description" type="html"/>
         <element label="Email" max_length="100" name="email" type="string"/>
-        <element choice="1" label="Status" mandatory="true" max_length="255" name="status" type="choice">
+        <element choice="1" default="New&#13;&#10;" label="Status" mandatory="true" max_length="255" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Resolved" sequence="3" value="Resolved"/>
                 <element inactive_on_update="false" label="Assigned" sequence="1" value="Assigned"/>

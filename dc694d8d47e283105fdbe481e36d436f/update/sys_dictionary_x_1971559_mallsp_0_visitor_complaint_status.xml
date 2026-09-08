@@ -11,7 +11,8 @@
         <column_label>Status</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>New&#13;
+</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -54,7 +55,7 @@
         <sys_scope display_value="MallSphere">dc694d8d47e283105fdbe481e36d436f</sys_scope>
         <sys_update_name>sys_dictionary_x_1971559_mallsp_0_visitor_complaint_status</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-07 14:21:09</sys_updated_on>
+        <sys_updated_on>2026-09-07 08:01:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
