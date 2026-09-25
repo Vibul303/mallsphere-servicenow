@@ -65,6 +65,31 @@ The MallSphere dashboard provides operational visibility through:
 - Tenants by Status
 - Maintenance Requests by Status
 
+## 📸 Application Screenshots
+
+### 🏢 MallSphere Management Portal
+![MallSphere Management Portal](screenshots/mallsphere-management-portal.png)
+
+### ⚙️ MallSphere Application in ServiceNow Studio
+![MallSphere Application Studio](screenshots/mallsphere-application-studio.png)
+
+### 🔄 Workflow Automation
+![MallSphere Flow Designer](screenshots/mallsphere-flow-designer.png)
+
+### 🔐 Role-Based Access Control
+![MallSphere Access Controls](screenshots/mallsphere-access-controls.png)
+
+### 🛠️ Maintenance Request
+![Maintenance Request](screenshots/maintenance-request.png)
+
+### ⏰ Lease Expiry Reminder
+![Lease Expiry Flow](screenshots/lease-expiry-flow.png)
+
+### 📊 MallSphere Dashboard
+![MallSphere Dashboard 1](screenshots/mallsphere-dashboard-1.png)
+
+![MallSphere Dashboard 2](screenshots/mallsphere-dashboard-2.png)
+
 ## 🛠️ Platform
 
 **Platform:** ServiceNow  
